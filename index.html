@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ujian PAI Kelas 8</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+margin:0;
+padding:15px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+h1{
+text-align:center;
+}
+
+input[type=text],
+textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+box-sizing:border-box;
+}
+
+.soal{
+margin-bottom:25px;
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+button{
+width:100%;
+padding:15px;
+font-size:18px;
+background:#198754;
+color:white;
+border:none;
+border-radius:8px;
+}
+
+#hasil{
+margin-top:20px;
+padding:15px;
+background:#eef;
+border-radius:8px;
+display:none;
+}
+
+.benar{
+color:green;
+font-weight:bold;
+}
+
+.salah{
+color:red;
+font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>UJIAN PAI KELAS 8</h1>
+
+<label>Nama Siswa</label> <input type="text" id="nama">
+
+<label>Kelas</label> <input type="text" id="kelas">
+
+<div id="soalArea">
+
+<!-- SOAL PG NANTI MASUK DI SINI -->
+
+<div class="soal">
+  
+<div class="soal">
+<p><b>1.</b> Jual beli adalah ....</p>
+<label><input type="radio" name="q1" value="A"> Tukar-menukar barang atau uang berdasarkan kesepakatan</label><br>
+<label><input type="radio" name="q1" value="B"> Meminjam barang tanpa izin</label><br>
+<label><input type="radio" name="q1" value="C"> Memberikan hadiah</label><br>
+<label><input type="radio" name="q1" value="D"> Menyewakan barang</label><br>
+</div>
+
+<div class="soal">
+<p><b>2.</b> Orang yang menjual barang disebut ....</p>
+<label><input type="radio" name="q2" value="A"> Musytari</label><br>
+<label><input type="radio" name="q2" value="B"> Muqridh</label><br>
+<label><input type="radio" name="q2" value="C"> Ba'i</label><br>
+<label><input type="radio" name="q2" value="D"> Muqtaridh</label><br>
+</div>
+
+<div class="soal">
+<p><b>3.</b> Orang yang membeli barang disebut ....</p>
+<label><input type="radio" name="q3" value="A"> Musytari</label><br>
+<label><input type="radio" name="q3" value="B"> Ba'i</label><br>
+<label><input type="radio" name="q3" value="C"> Muqridh</label><br>
+<label><input type="radio" name="q3" value="D"> Malik</label><br>
+</div>
+
+<div class="soal">
+<p><b>4.</b> Salah satu rukun jual beli adalah ....</p>
+<label><input type="radio" name="q4" value="A"> Paksaan</label><br>
+<label><input type="radio" name="q4" value="B"> Penjual dan pembeli</label><br>
+<label><input type="radio" name="q4" value="C"> Perselisihan</label><br>
+<label><input type="radio" name="q4" value="D"> Kerugian</label><br>
+</div>
+
+<div class="soal">
+<p><b>5.</b> Hak memilih untuk melanjutkan atau membatalkan jual beli disebut ....</p>
+<label><input type="radio" name="q5" value="A"> Riba</label><br>
+<label><input type="radio" name="q5" value="B"> Qardh</label><br>
+<label><input type="radio" name="q5" value="C"> Khiyar</label><br>
+<label><input type="radio" name="q5" value="D"> Ijab</label><br>
+</div>
+
+<div class="soal">
+<p><b>6.</b> Khiyar yang berlaku selama penjual dan pembeli masih berada di tempat transaksi disebut ....</p>
+<label><input type="radio" name="q6" value="A"> Khiyar Aib</label><br>
+<label><input type="radio" name="q6" value="B"> Khiyar Syarat</label><br>
+<label><input type="radio" name="q6" value="C"> Khiyar Majelis</label><br>
+<label><input type="radio" name="q6" value="D"> Khiyar Ru'yah</label><br>
+</div>
+
+<div class="soal">
+<p><b>7.</b> Khiyar karena ditemukan cacat pada barang disebut ....</p>
+<label><input type="radio" name="q7" value="A"> Khiyar Aib</label><br>
+<label><input type="radio" name="q7" value="B"> Khiyar Majelis</label><br>
+<label><input type="radio" name="q7" value="C"> Khiyar Syarat</label><br>
+<label><input type="radio" name="q7" value="D"> Riba</label><br>
+</div>
+
+<div class="soal">
+<p><b>8.</b> Orang yang memberikan pinjaman disebut ....</p>
+<label><input type="radio" name="q8" value="A"> Muqtaridh</label><br>
+<label><input type="radio" name="q8" value="B"> Muqridh</label><br>
+<label><input type="radio" name="q8" value="C"> Musytari</label><br>
+<label><input type="radio" name="q8" value="D"> Ba'i</label><br>
+</div>
+
+<div class="soal">
+<p><b>9.</b> Orang yang menerima pinjaman disebut ....</p>
+<label><input type="radio" name="q9" value="A"> Muqtaridh</label><br>
+<label><input type="radio" name="q9" value="B"> Muqridh</label><br>
+<label><input type="radio" name="q9" value="C"> Ba'i</label><br>
+<label><input type="radio" name="q9" value="D"> Musytari</label><br>
+</div>
+
+<div class="soal">
+<p><b>10.</b> Tambahan yang disyaratkan dalam hutang piutang disebut ....</p>
+<label><input type="radio" name="q10" value="A"> Sedekah</label><br>
+<label><input type="radio" name="q10" value="B"> Zakat</label><br>
+<label><input type="radio" name="q10" value="C"> Riba</label><br>
+<label><input type="radio" name="q10" value="D"> Wakaf</label><br>
+</div>
+
+<div class="soal">
+<p><b>11.</b> Riba yang terjadi karena pertukaran barang sejenis dengan jumlah berbeda disebut ....</p>
+<label><input type="radio" name="q11" value="A"> Riba Qardh</label><br>
+<label><input type="radio" name="q11" value="B"> Riba Fadhl</label><br>
+<label><input type="radio" name="q11" value="C"> Riba Nasi'ah</label><br>
+<label><input type="radio" name="q11" value="D"> Riba Jahiliyah</label><br>
+</div>
+
+<div class="soal">
+<p><b>12.</b> Riba yang terjadi karena penundaan pembayaran hutang disebut ....</p>
+<label><input type="radio" name="q12" value="A"> Riba Fadhl</label><br>
+<label><input type="radio" name="q12" value="B"> Riba Qardh</label><br>
+<label><input type="radio" name="q12" value="C"> Riba Nasi'ah</label><br>
+<label><input type="radio" name="q12" value="D"> Riba Yad</label><br>
+</div>
+
+<div class="soal">
+<p><b>13.</b> Salah satu dampak riba adalah ....</p>
+<label><input type="radio" name="q13" value="A"> Menambah keberkahan</label><br>
+<label><input type="radio" name="q13" value="B"> Menimbulkan keadilan</label><br>
+<label><input type="radio" name="q13" value="C"> Menimbulkan kesenjangan sosial</label><br>
+<label><input type="radio" name="q13" value="D"> Menambah persaudaraan</label><br>
+</div>
+
+<div class="soal">
+<p><b>14.</b> Dinasti yang dikenal sebagai masa keemasan ilmu pengetahuan Islam adalah ....</p>
+<label><input type="radio" name="q14" value="A"> Umayyah</label><br>
+<label><input type="radio" name="q14" value="B"> Abbasiyah</label><br>
+<label><input type="radio" name="q14" value="C"> Fatimiyah</label><br>
+<label><input type="radio" name="q14" value="D"> Ayyubiyah</label><br>
+</div>
+
+<div class="soal">
+<p><b>15.</b> Pusat pemerintahan Dinasti Abbasiyah berada di kota ....</p>
+<label><input type="radio" name="q15" value="A"> Makkah</label><br>
+<label><input type="radio" name="q15" value="B"> Madinah</label><br>
+<label><input type="radio" name="q15" value="C"> Baghdad</label><br>
+<label><input type="radio" name="q15" value="D"> Damaskus</label><br>
+</div>
+
+<div class="soal">
+<p><b>16.</b> Bayt al-Hikmah merupakan pusat ....</p>
+<label><input type="radio" name="q16" value="A"> Militer</label><br>
+<label><input type="radio" name="q16" value="B"> Perdagangan</label><br>
+<label><input type="radio" name="q16" value="C"> Ilmu pengetahuan</label><br>
+<label><input type="radio" name="q16" value="D"> Politik</label><br>
+</div>
+
+<div class="soal">
+<p><b>17.</b> Salah satu fungsi Bayt al-Hikmah adalah ....</p>
+<label><input type="radio" name="q17" value="A"> Tempat latihan perang</label><br>
+<label><input type="radio" name="q17" value="B"> Pusat penerjemahan buku</label><br>
+<label><input type="radio" name="q17" value="C"> Penjara</label><br>
+<label><input type="radio" name="q17" value="D"> Pasar</label><br>
+</div>
+
+<div class="soal">
+<p><b>18.</b> Tokoh muslim yang terkenal di bidang kedokteran adalah ....</p>
+<label><input type="radio" name="q18" value="A"> Al-Kindi</label><br>
+<label><input type="radio" name="q18" value="B"> Al-Farabi</label><br>
+<label><input type="radio" name="q18" value="C"> Ibnu Sina</label><br>
+<label><input type="radio" name="q18" value="D"> Imam Malik</label><br>
+</div>
+
+<div class="soal">
+<p><b>19.</b> Karya terkenal Ibnu Sina adalah ....</p>
+<label><input type="radio" name="q19" value="A"> Shahih Bukhari</label><br>
+<label><input type="radio" name="q19" value="B"> Al-Qanun fi al-Tibb</label><br>
+<label><input type="radio" name="q19" value="C"> Al-Muwatta</label><br>
+<label><input type="radio" name="q19" value="D"> Al-Umm</label><br>
+</div>
+
+<div class="soal">
+<p><b>20.</b> Ibnu Sina dijuluki sebagai ....</p>
+<label><input type="radio" name="q20" value="A"> Bapak Filsafat Islam</label><br>
+<label><input type="radio" name="q20" value="B"> Bapak Kedokteran Modern</label><br>
+<label><input type="radio" name="q20" value="C"> Ahli Hadis</label><br>
+<label><input type="radio" name="q20" value="D"> Pendiri Mazhab</label><br>
+</div>
+
+<div class="soal">
+<p><b>21.</b> Tokoh yang dikenal sebagai Bapak Filsafat Islam adalah ....</p>
+<label><input type="radio" name="q21" value="A"> Ibnu Sina</label><br>
+<label><input type="radio" name="q21" value="B"> Al-Kindi</label><br>
+<label><input type="radio" name="q21" value="C"> Imam Muslim</label><br>
+<label><input type="radio" name="q21" value="D"> Abu Hanifah</label><br>
+</div>
+
+<div class="soal">
+<p><b>22.</b> Al-Farabi terkenal dalam bidang ....</p>
+<label><input type="radio" name="q22" value="A"> Filsafat</label><br>
+<label><input type="radio" name="q22" value="B"> Kedokteran</label><br>
+<label><input type="radio" name="q22" value="C"> Hadis</label><br>
+<label><input type="radio" name="q22" value="D"> Fikih</label><br>
+</div>
+
+<div class="soal">
+<p><b>23.</b> Pendiri Mazhab Hanafi adalah ....</p>
+<label><input type="radio" name="q23" value="A"> Imam Malik</label><br>
+<label><input type="radio" name="q23" value="B"> Imam Syafi'i</label><br>
+<label><input type="radio" name="q23" value="C"> Abu Hanifah</label><br>
+<label><input type="radio" name="q23" value="D"> Ahmad bin Hanbal</label><br>
+</div>
+
+<div class="soal">
+<p><b>24.</b> Pendiri Mazhab Maliki adalah ....</p>
+<label><input type="radio" name="q24" value="A"> Imam Malik</label><br>
+<label><input type="radio" name="q24" value="B"> Imam Syafi'i</label><br>
+<label><input type="radio" name="q24" value="C"> Abu Hanifah</label><br>
+<label><input type="radio" name="q24" value="D"> Imam Muslim</label><br>
+</div>
+
+<div class="soal">
+<p><b>25.</b> Pendiri Mazhab Syafi'i adalah ....</p>
+<label><input type="radio" name="q25" value="A"> Abu Hanifah</label><br>
+<label><input type="radio" name="q25" value="B"> Imam Malik</label><br>
+<label><input type="radio" name="q25" value="C"> Imam Syafi'i</label><br>
+<label><input type="radio" name="q25" value="D"> Ahmad bin Hanbal</label><br>
+</div>
+
+<div class="soal">
+<p><b>26.</b> Pendiri Mazhab Hanbali adalah ....</p>
+<label><input type="radio" name="q26" value="A"> Ahmad bin Hanbal</label><br>
+<label><input type="radio" name="q26" value="B"> Imam Malik</label><br>
+<label><input type="radio" name="q26" value="C"> Imam Syafi'i</label><br>
+<label><input type="radio" name="q26" value="D"> Abu Hanifah</label><br>
+</div>
+
+<div class="soal">
+<p><b>27.</b> Kitab Shahih Bukhari disusun oleh ....</p>
+<label><input type="radio" name="q27" value="A"> Imam Muslim</label><br>
+<label><input type="radio" name="q27" value="B"> Imam Bukhari</label><br>
+<label><input type="radio" name="q27" value="C"> Imam Malik</label><br>
+<label><input type="radio" name="q27" value="D"> Imam Syafi'i</label><br>
+</div>
+
+<div class="soal">
+<p><b>28.</b> Kitab Shahih Muslim disusun oleh ....</p>
+<label><input type="radio" name="q28" value="A"> Imam Muslim</label><br>
+<label><input type="radio" name="q28" value="B"> Imam Bukhari</label><br>
+<label><input type="radio" name="q28" value="C"> Imam Malik</label><br>
+<label><input type="radio" name="q28" value="D"> Abu Hanifah</label><br>
+</div>
+
+<div class="soal">
+<p><b>29.</b> Salah satu faktor kemajuan Abbasiyah adalah ....</p>
+<label><input type="radio" name="q29" value="A"> Larangan membaca</label><br>
+<label><input type="radio" name="q29" value="B"> Menghargai ilmu pengetahuan</label><br>
+<label><input type="radio" name="q29" value="C"> Menutup perpustakaan</label><br>
+<label><input type="radio" name="q29" value="D"> Melarang penelitian</label><br>
+</div>
+
+<div class="soal">
+<p><b>30.</b> Kontribusi ilmuwan muslim pada masa Abbasiyah bermanfaat bagi ....</p>
+<label><input type="radio" name="q30" value="A"> Dunia Islam saja</label><br>
+<label><input type="radio" name="q30" value="B"> Bangsa Arab saja</label><br>
+<label><input type="radio" name="q30" value="C"> Kemanusiaan dan peradaban dunia</label><br>
+<label><input type="radio" name="q30" value="D"> Kalangan tertentu saja</label><br>
+</div>
+
+<div class="soal">
+<p><b>31.</b> Barang yang diperjualbelikan harus bersifat ....</p>
+<label><input type="radio" name="q31" value="A"> Haram</label><br>
+<label><input type="radio" name="q31" value="B"> Tidak jelas</label><br>
+<label><input type="radio" name="q31" value="C"> Halal dan bermanfaat</label><br>
+<label><input type="radio" name="q31" value="D"> Milik orang lain</label><br>
+</div>
+
+<div class="soal">
+<p><b>32.</b> Pernyataan setuju antara penjual dan pembeli disebut ....</p>
+<label><input type="radio" name="q32" value="A"> Riba</label><br>
+<label><input type="radio" name="q32" value="B"> Ijab kabul</label><br>
+<label><input type="radio" name="q32" value="C"> Khiyar</label><br>
+<label><input type="radio" name="q32" value="D"> Qardh</label><br>
+</div>
+
+<div class="soal">
+<p><b>33.</b> Salah satu syarat penjual dan pembeli adalah ....</p>
+<label><input type="radio" name="q33" value="A"> Dipaksa</label><br>
+<label><input type="radio" name="q33" value="B"> Berakal</label><br>
+<label><input type="radio" name="q33" value="C"> Tidak mengetahui barang</label><br>
+<label><input type="radio" name="q33" value="D"> Curang</label><br>
+</div>
+
+<div class="soal">
+<p><b>34.</b> Khiyar syarat terjadi apabila ....</p>
+<label><input type="radio" name="q34" value="A"> Ada waktu yang disepakati</label><br>
+<label><input type="radio" name="q34" value="B"> Barang rusak</label><br>
+<label><input type="radio" name="q34" value="C"> Masih di majelis</label><br>
+<label><input type="radio" name="q34" value="D"> Tidak ada akad</label><br>
+</div>
+
+<div class="soal">
+<p><b>35.</b> Seorang pembeli menemukan cacat pada barang setelah sampai di rumah. Ia berhak menggunakan ....</p>
+<label><input type="radio" name="q35" value="A"> Khiyar Aib</label><br>
+<label><input type="radio" name="q35" value="B"> Khiyar Majelis</label><br>
+<label><input type="radio" name="q35" value="C"> Khiyar Syarat</label><br>
+<label><input type="radio" name="q35" value="D"> Riba</label><br>
+</div>
+
+<div class="soal">
+<p><b>36.</b> Peminjam yang mampu tetapi sengaja menunda pembayaran hutang termasuk perbuatan ....</p>
+<label><input type="radio" name="q36" value="A"> Terpuji</label><br>
+<label><input type="radio" name="q36" value="B"> Tercela</label><br>
+<label><input type="radio" name="q36" value="C"> Sunnah</label><br>
+<label><input type="radio" name="q36" value="D"> Mubah</label><br>
+</div>
+
+<div class="soal">
+<p><b>37.</b> Dalam hutang piutang, sikap yang harus dimiliki pemberi hutang adalah ....</p>
+<label><input type="radio" name="q37" value="A"> Memaksa</label><br>
+<label><input type="radio" name="q37" value="B"> Ikhlas</label><br>
+<label><input type="radio" name="q37" value="C"> Marah</label><br>
+<label><input type="radio" name="q37" value="D"> Curiga</label><br>
+</div>
+
+<div class="soal">
+<p><b>38.</b> Hukum riba dalam Islam adalah ....</p>
+<label><input type="radio" name="q38" value="A"> Sunnah</label><br>
+<label><input type="radio" name="q38" value="B"> Mubah</label><br>
+<label><input type="radio" name="q38" value="C"> Haram</label><br>
+<label><input type="radio" name="q38" value="D"> Makruh</label><br>
+</div>
+
+<div class="soal">
+<p><b>39.</b> Salah satu dampak riba adalah hilangnya ....</p>
+<label><input type="radio" name="q39" value="A"> Ilmu</label><br>
+<label><input type="radio" name="q39" value="B"> Keberkahan</label><br>
+<label><input type="radio" name="q39" value="C"> Persahabatan</label><br>
+<label><input type="radio" name="q39" value="D"> Kesehatan</label><br>
+</div>
+
+<div class="soal">
+<p><b>40.</b> Baghdad berkembang menjadi pusat ilmu karena ....</p>
+<label><input type="radio" name="q40" value="A"> Banyak ilmuwan dan perpustakaan</label><br>
+<label><input type="radio" name="q40" value="B"> Banyak peperangan</label><br>
+<label><input type="radio" name="q40" value="C"> Sedikit sekolah</label><br>
+<label><input type="radio" name="q40" value="D"> Menolak ilmu luar</label><br>
+</div>
+
+<div class="soal">
+<p><b>41.</b> Bayt al-Hikmah juga berfungsi sebagai ....</p>
+<label><input type="radio" name="q41" value="A"> Perpustakaan</label><br>
+<label><input type="radio" name="q41" value="B"> Penjara</label><br>
+<label><input type="radio" name="q41" value="C"> Gudang senjata</label><br>
+<label><input type="radio" name="q41" value="D"> Istana</label><br>
+</div>
+
+<div class="soal">
+<p><b>42.</b> Al-Kindi terkenal dalam bidang ....</p>
+<label><input type="radio" name="q42" value="A"> Filsafat</label><br>
+<label><input type="radio" name="q42" value="B"> Kedokteran</label><br>
+<label><input type="radio" name="q42" value="C"> Hadis</label><br>
+<label><input type="radio" name="q42" value="D"> Tafsir</label><br>
+</div>
+
+<div class="soal">
+<p><b>43.</b> Selain filsafat, Al-Kindi juga berkontribusi pada bidang ....</p>
+<label><input type="radio" name="q43" value="A"> Matematika</label><br>
+<label><input type="radio" name="q43" value="B"> Pertanian</label><br>
+<label><input type="radio" name="q43" value="C"> Perikanan</label><br>
+<label><input type="radio" name="q43" value="D"> Perdagangan</label><br>
+</div>
+
+<div class="soal">
+<p><b>44.</b> Al-Farabi dikenal sebagai tokoh di bidang ....</p>
+<label><input type="radio" name="q44" value="A"> Filsafat</label><br>
+<label><input type="radio" name="q44" value="B"> Kedokteran</label><br>
+<label><input type="radio" name="q44" value="C"> Hadis</label><br>
+<label><input type="radio" name="q44" value="D"> Fikih</label><br>
+</div>
+
+<div class="soal">
+<p><b>45.</b> Imam Syafi'i adalah pendiri mazhab ....</p>
+<label><input type="radio" name="q45" value="A"> Hanafi</label><br>
+<label><input type="radio" name="q45" value="B"> Maliki</label><br>
+<label><input type="radio" name="q45" value="C"> Syafi'i</label><br>
+<label><input type="radio" name="q45" value="D"> Hanbali</label><br>
+</div>
+
+<div class="soal">
+<p><b>46.</b> Imam Bukhari terkenal sebagai ulama ....</p>
+<label><input type="radio" name="q46" value="A"> Hadis</label><br>
+<label><input type="radio" name="q46" value="B"> Kedokteran</label><br>
+<label><input type="radio" name="q46" value="C"> Astronomi</label><br>
+<label><input type="radio" name="q46" value="D"> Kimia</label><br>
+</div>
+
+<div class="soal">
+<p><b>47.</b> Salah satu faktor kemajuan Abbasiyah adalah ....</p>
+<label><input type="radio" name="q47" value="A"> Dukungan khalifah terhadap ilmu</label><br>
+<label><input type="radio" name="q47" value="B"> Larangan belajar</label><br>
+<label><input type="radio" name="q47" value="C"> Penutupan sekolah</label><br>
+<label><input type="radio" name="q47" value="D"> Pengurangan buku</label><br>
+</div>
+
+<div class="soal">
+<p><b>48.</b> Ilmu dari berbagai negara berkembang di Baghdad melalui kegiatan ....</p>
+<label><input type="radio" name="q48" value="A"> Penerjemahan buku</label><br>
+<label><input type="radio" name="q48" value="B"> Perang</label><br>
+<label><input type="radio" name="q48" value="C"> Perbudakan</label><br>
+<label><input type="radio" name="q48" value="D"> Penjajahan</label><br>
+</div>
+
+<div class="soal">
+<p><b>49.</b> Perkembangan ilmu pengetahuan menunjukkan bahwa Islam ....</p>
+<label><input type="radio" name="q49" value="A"> Membenci ilmu</label><br>
+<label><input type="radio" name="q49" value="B"> Menghargai ilmu</label><br>
+<label><input type="radio" name="q49" value="C"> Melarang penelitian</label><br>
+<label><input type="radio" name="q49" value="D"> Menolak pendidikan</label><br>
+</div>
+
+<div class="soal">
+<p><b>50.</b> Menuntut ilmu dan mengembangkan pengetahuan merupakan teladan dari ....</p>
+<label><input type="radio" name="q50" value="A"> Ilmuwan Muslim Abbasiyah</label><br>
+<label><input type="radio" name="q50" value="B"> Pedagang jahiliyah</label><br>
+<label><input type="radio" name="q50" value="C"> Pelaku riba</label><br>
+<label><input type="radio" name="q50" value="D"> Kaum musyrik</label><br>
+</div>
+
+<div class="soal">
+<p><b>51.</b> Kata tasamuh memiliki arti ....</p>
+<label><input type="radio" name="q51" value="A"> Perselisihan</label><br>
+<label><input type="radio" name="q51" value="B"> Tenggang rasa</label><br>
+<label><input type="radio" name="q51" value="C"> Permusuhan</label><br>
+<label><input type="radio" name="q51" value="D"> Fanatisme</label><br>
+</div>
+
+<div class="soal">
+<p><b>52.</b> Sikap menghormati dan menghargai perbedaan disebut ....</p>
+<label><input type="radio" name="q52" value="A"> Tasamuh</label><br>
+<label><input type="radio" name="q52" value="B"> Riya</label><br>
+<label><input type="radio" name="q52" value="C"> Takabur</label><br>
+<label><input type="radio" name="q52" value="D"> Hasad</label><br>
+</div>
+
+<div class="soal">
+<p><b>53.</b> "Untukmu agamamu dan untukku agamaku" terdapat dalam QS ....</p>
+<label><input type="radio" name="q53" value="A"> Al-Ikhlas</label><br>
+<label><input type="radio" name="q53" value="B"> Al-Kafirun</label><br>
+<label><input type="radio" name="q53" value="C"> Al-Falaq</label><br>
+<label><input type="radio" name="q53" value="D"> An-Nas</label><br>
+</div>
+
+<div class="soal">
+<p><b>54.</b> "Tidak ada paksaan dalam beragama" terdapat dalam QS ....</p>
+<label><input type="radio" name="q54" value="A"> Al-Baqarah ayat 256</label><br>
+<label><input type="radio" name="q54" value="B"> Al-Kafirun ayat 6</label><br>
+<label><input type="radio" name="q54" value="C"> Al-Maun</label><br>
+<label><input type="radio" name="q54" value="D"> Al-Ashr</label><br>
+</div>
+
+<div class="soal">
+<p><b>55.</b> Salah satu unsur toleransi adalah ....</p>
+<label><input type="radio" name="q55" value="A"> Kerja sama</label><br>
+<label><input type="radio" name="q55" value="B"> Kebencian</label><br>
+<label><input type="radio" name="q55" value="C"> Fanatisme</label><br>
+<label><input type="radio" name="q55" value="D"> Permusuhan</label><br>
+</div>
+
+<div class="soal">
+<p><b>56.</b> Salah satu manfaat toleransi adalah ....</p>
+<label><input type="radio" name="q56" value="A"> Menambah konflik</label><br>
+<label><input type="radio" name="q56" value="B"> Menciptakan kerukunan</label><br>
+<label><input type="radio" name="q56" value="C"> Memecah persatuan</label><br>
+<label><input type="radio" name="q56" value="D"> Menimbulkan permusuhan</label><br>
+</div>
+
+<div class="soal">
+<p><b>57.</b> Menghormati teman yang berbeda agama di sekolah merupakan contoh ....</p>
+<label><input type="radio" name="q57" value="A"> Tasamuh</label><br>
+<label><input type="radio" name="q57" value="B"> Takabur</label><br>
+<label><input type="radio" name="q57" value="C"> Riya</label><br>
+<label><input type="radio" name="q57" value="D"> Hasad</label><br>
+</div>
+
+<div class="soal">
+<p><b>58.</b> Sikap yang tidak sesuai dengan tasamuh adalah ....</p>
+<label><input type="radio" name="q58" value="A"> Menghormati orang lain</label><br>
+<label><input type="radio" name="q58" value="B"> Membantu tetangga</label><br>
+<label><input type="radio" name="q58" value="C"> Menghina agama lain</label><br>
+<label><input type="radio" name="q58" value="D"> Menjaga kerukunan</label><br>
+</div>
+
+<div class="soal">
+<p><b>59.</b> Salah satu manfaat toleransi bagi bangsa Indonesia adalah ....</p>
+<label><input type="radio" name="q59" value="A"> Menjaga keutuhan NKRI</label><br>
+<label><input type="radio" name="q59" value="B"> Menambah konflik</label><br>
+<label><input type="radio" name="q59" value="C"> Mengurangi persatuan</label><br>
+<label><input type="radio" name="q59" value="D"> Menimbulkan perpecahan</label><br>
+</div>
+
+<div class="soal">
+<p><b>60.</b> Toleransi tidak berarti ....</p>
+<label><input type="radio" name="q60" value="A"> Menghormati orang lain</label><br>
+<label><input type="radio" name="q60" value="B"> Menjaga kerukunan</label><br>
+<label><input type="radio" name="q60" value="C"> Mencampuradukkan akidah</label><br>
+<label><input type="radio" name="q60" value="D"> Tenggang rasa</label><br>
+</div>
+  
+</div>
+
+<!-- ISIAN -->
+
+<div class="soal">
+  
+<div class="soal">
+<p><b>1.</b> Orang yang menjual barang disebut ....</p>
+<input type="text" id="isian1">
+</div>
+
+<div class="soal">
+<p><b>2.</b> Orang yang membeli barang disebut ....</p>
+<input type="text" id="isian2">
+</div>
+
+<div class="soal">
+<p><b>3.</b> Hak memilih untuk melanjutkan atau membatalkan jual beli disebut ....</p>
+<input type="text" id="isian3">
+</div>
+
+<div class="soal">
+<p><b>4.</b> Orang yang memberikan pinjaman disebut ....</p>
+<input type="text" id="isian4">
+</div>
+
+<div class="soal">
+<p><b>5.</b> Orang yang menerima pinjaman disebut ....</p>
+<input type="text" id="isian5">
+</div>
+
+<div class="soal">
+<p><b>6.</b> Tambahan yang disyaratkan dalam hutang piutang disebut ....</p>
+<input type="text" id="isian6">
+</div>
+
+<div class="soal">
+<p><b>7.</b> Pusat ilmu pengetahuan pada masa Abbasiyah disebut ....</p>
+<input type="text" id="isian7">
+</div>
+
+<div class="soal">
+<p><b>8.</b> Kota pusat pemerintahan Abbasiyah adalah ....</p>
+<input type="text" id="isian8">
+</div>
+
+<div class="soal">
+<p><b>9.</b> Tokoh muslim yang terkenal dalam bidang kedokteran adalah ....</p>
+<input type="text" id="isian9">
+</div>
+
+<div class="soal">
+<p><b>10.</b> Tokoh yang dikenal sebagai Bapak Filsafat Islam adalah ....</p>
+<input type="text" id="isian10">
+</div>
+
+  <div class="soal">
+<p><b>11.</b> Sikap menghormati dan menghargai perbedaan disebut ....</p>
+<input type="text" id="isian11">
+</div>
+
+<div class="soal">
+<p><b>12.</b> Kata tasamuh berarti ....</p>
+<input type="text" id="isian12">
+</div>
+
+<div class="soal">
+<p><b>13.</b> Surat yang mengandung ayat "Lakum diinukum waliyadin" adalah surat ....</p>
+<input type="text" id="isian13">
+</div>
+
+<div class="soal">
+<p><b>14.</b> Salah satu manfaat toleransi adalah menciptakan ....</p>
+<input type="text" id="isian14">
+</div>
+
+<div class="soal">
+<p><b>15.</b> Sikap membantu tetangga yang berbeda agama merupakan contoh ....</p>
+<input type="text" id="isian15">
+</div>
+  
+<!-- URAIAN -->
+
+<div class="soal">
+  
+<div class="soal">
+<p><b>1.</b> Saat ini banyak transaksi dilakukan secara online. Jelaskan bagaimana cara menerapkan prinsip kejujuran dan amanah dalam jual beli online agar sesuai dengan ajaran Islam!</p>
+
+<textarea id="uraian1" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>2.</b> Menurut pendapatmu, mengapa Islam mengharamkan riba? Jelaskan dampaknya terhadap kehidupan masyarakat apabila riba dibiarkan berkembang!</p>
+
+<textarea id="uraian2" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>3.</b> Bayangkan kamu meminjam uang dari temanmu. Jelaskan sikap yang harus dimiliki oleh peminjam dan pemberi pinjaman agar hutang piutang berjalan sesuai ajaran Islam!</p>
+
+<textarea id="uraian3" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>4.</b> Ilmuwan muslim pada masa Abbasiyah berhasil memberikan kontribusi besar bagi dunia. Jelaskan pelajaran yang dapat diambil oleh pelajar masa kini dari semangat mereka dalam mencari ilmu!</p>
+
+<textarea id="uraian4" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>5.</b> Menurut pendapatmu, mengapa Bayt al-Hikmah memiliki peran penting dalam kemajuan peradaban Islam pada masa Abbasiyah?</p>
+
+<textarea id="uraian5" rows="5"></textarea>
+</div>
+
+ <div class="soal">
+<p><b>6.</b> Di sekolahmu terdapat siswa yang berbeda agama. Jelaskan bagaimana cara menerapkan tasamuh agar tercipta lingkungan belajar yang harmonis!</p>
+
+<textarea id="uraian6" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>7.</b> Menurut pendapatmu, mengapa toleransi sangat penting bagi bangsa Indonesia yang memiliki banyak suku, budaya, dan agama?</p>
+
+<textarea id="uraian7" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>8.</b> Jelaskan perbedaan antara menghormati agama lain dengan mencampuradukkan ajaran agama!</p>
+
+<textarea id="uraian8" rows="5"></textarea>
+</div> 
+  
+</div>
+
+<button onclick="periksa()">SELESAI UJIAN</button>
+
+<div id="hasil"></div>
+
+
+</div>
+
+<script>
+
+const kunciPG = {
+q1:"A",
+q2:"C",
+q3:"A",
+q4:"B",
+q5:"C",
+q6:"C",
+q7:"A",
+q8:"B",
+q9:"A",
+q10:"C",
+q11:"B",
+q12:"C",
+q13:"C",
+q14:"B",
+q15:"C",
+q16:"C",
+q17:"B",
+q18:"C",
+q19:"B",
+q20:"B",
+q21:"B",
+q22:"A",
+q23:"C",
+q24:"A",
+q25:"C",
+q26:"A",
+q27:"B",
+q28:"A",
+q29:"B",
+q30:"C",
+q31:"C",
+q32:"B",
+q33:"B",
+q34:"A",
+q35:"A",
+q36:"B",
+q37:"B",
+q38:"C",
+q39:"B",
+q40:"A",
+q41:"A",
+q42:"A",
+q43:"A",
+q44:"A",
+q45:"C",
+q46:"A",
+q47:"A",
+q48:"A",
+q49:"B",
+q50:"A",
+q51:"B",
+q52:"A",
+q53:"B",
+q54:"A",
+q55:"A",
+q56:"B",
+q57:"A",
+q58:"C",
+q59:"A",
+q60:"C",
+};
+
+const pembahasanPG = {
+q1:"Jual beli adalah tukar-menukar barang atau uang berdasarkan kesepakatan.",
+q2:"Ba'i adalah penjual.",
+q3:"Musytari adalah pembeli.",
+q4:"Penjual dan pembeli termasuk rukun jual beli.",
+q5:"Khiyar adalah hak memilih dalam transaksi.",
+q6:"Khiyar Majelis berlaku selama masih berada di tempat akad.",
+q7:"Khiyar Aib terjadi karena ditemukan cacat barang.",
+q8:"Muqridh adalah pemberi pinjaman.",
+q9:"Muqtaridh adalah penerima pinjaman.",
+q10:"Riba adalah tambahan yang disyaratkan dalam hutang piutang.",
+q11:"Riba Fadhl adalah pertukaran barang sejenis dengan jumlah yang berbeda.",
+q12:"Riba Nasi'ah terjadi karena adanya penundaan pembayaran yang disertai tambahan.",
+q13:"Riba dapat menyebabkan kesenjangan sosial dan ketidakadilan.",
+q14:"Dinasti Abbasiyah dikenal sebagai masa keemasan ilmu pengetahuan Islam.",
+q15:"Pusat pemerintahan Abbasiyah berada di kota Baghdad.",
+q16:"Bayt al-Hikmah merupakan pusat ilmu pengetahuan pada masa Abbasiyah.",
+q17:"Salah satu fungsi Bayt al-Hikmah adalah menerjemahkan berbagai buku ilmu pengetahuan.",
+q18:"Ibnu Sina merupakan ilmuwan muslim terkenal dalam bidang kedokteran.",
+q19:"Al-Qanun fi al-Tibb adalah karya terkenal Ibnu Sina.",
+q20:"Ibnu Sina dijuluki Bapak Kedokteran Modern.",
+q21:"Al-Kindi dikenal sebagai Bapak Filsafat Islam.",
+q22:"Al-Farabi terkenal dalam bidang filsafat.",
+q23:"Abu Hanifah adalah pendiri Mazhab Hanafi.",
+q24:"Imam Malik adalah pendiri Mazhab Maliki.",
+q25:"Imam Syafi'i adalah pendiri Mazhab Syafi'i.",
+q26:"Imam Ahmad bin Hanbal adalah pendiri Mazhab Hanbali.",
+q27:"Kitab Shahih Bukhari disusun oleh Imam Bukhari.",
+q28:"Kitab Shahih Muslim disusun oleh Imam Muslim.",
+q29:"Kemajuan Abbasiyah didukung oleh penghargaan terhadap ilmu pengetahuan.",
+q30:"Kontribusi ilmuwan muslim bermanfaat bagi kemanusiaan dan peradaban dunia.",
+
+q31:"Barang yang diperjualbelikan harus halal dan bermanfaat.",
+q32:"Ijab kabul merupakan pernyataan setuju antara penjual dan pembeli.",
+q33:"Salah satu syarat penjual dan pembeli adalah berakal.",
+q34:"Khiyar syarat berlaku dalam jangka waktu yang disepakati.",
+q35:"Khiyar aib digunakan jika ditemukan cacat pada barang.",
+q36:"Menunda pembayaran hutang padahal mampu merupakan perbuatan tercela.",
+q37:"Pemberi hutang sebaiknya bersikap ikhlas dan tidak memberatkan.",
+q38:"Riba hukumnya haram dalam Islam.",
+q39:"Riba dapat menghilangkan keberkahan.",
+q40:"Baghdad berkembang menjadi pusat ilmu karena banyak ilmuwan dan perpustakaan.",
+q41:"Bayt al-Hikmah juga berfungsi sebagai perpustakaan.",
+q42:"Al-Kindi terkenal dalam bidang filsafat.",
+q43:"Selain filsafat, Al-Kindi juga berkontribusi dalam matematika dan astronomi.",
+q44:"Al-Farabi dikenal sebagai tokoh filsafat Islam.",
+q45:"Imam Syafi'i adalah pendiri Mazhab Syafi'i.",
+q46:"Imam Bukhari merupakan ulama besar dalam bidang hadis.",
+q47:"Dukungan khalifah terhadap ilmu menjadi faktor kemajuan Abbasiyah.",
+q48:"Penerjemahan buku dari berbagai bahasa mempercepat perkembangan ilmu.",
+q49:"Perkembangan ilmu menunjukkan bahwa Islam menghargai ilmu pengetahuan.",
+q50:"Semangat menuntut ilmu dicontohkan oleh ilmuwan muslim Abbasiyah.",
+
+q51:"Tasamuh berarti tenggang rasa atau sikap menghargai perbedaan.",
+q52:"Tasamuh adalah sikap menghormati dan menghargai perbedaan.",
+q53:"Ayat 'Lakum diinukum waliyadiin' terdapat dalam QS Al-Kafirun.",
+q54:"'Tidak ada paksaan dalam beragama' terdapat dalam QS Al-Baqarah ayat 256.",
+q55:"Kerja sama merupakan salah satu unsur toleransi.",
+q56:"Toleransi dapat menciptakan kerukunan dalam masyarakat.",
+q57:"Menghormati teman berbeda agama merupakan contoh tasamuh.",
+q58:"Menghina agama lain bertentangan dengan sikap tasamuh.",
+q59:"Toleransi membantu menjaga keutuhan NKRI.",
+q60:"Toleransi tidak berarti mencampuradukkan akidah atau keyakinan agama.",
+};  
+  
+const kunciIsian = {
+isian1:"bai",
+isian2:"musytari",
+isian3:"khiyar",
+isian4:"muqridh",
+isian5:"muqtaridh",
+isian6:"riba",
+isian7:"bayt al hikmah",
+isian8:"baghdad",
+isian9:"ibnu sina",
+isian10:"al kindi",
+isian11:"tasamuh",
+isian12:"tenggang rasa",
+isian13:"al kafirun",
+isian14:"kerukunan",
+isian15:"toleransi",
+};
+
+function normal(teks){
+return teks
+.toLowerCase()
+.trim()
+.replace(/-/g," ")
+.replace(/\s+/g," ");
+}
+
+function periksa(){
+
+let benarPG = 0;
+let salahList = "";
+
+for(let kode in kunciPG){
+
+let dipilih =
+document.querySelector(
+'input[name="'+kode+'"]:checked'
+);
+
+if(dipilih){
+
+if(dipilih.value===kunciPG[kode]){
+
+benarPG++;
+
+}else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" salah.<br>"+
+"Jawaban benar: "+
+pembahasanPG[kode]+
+"</p>";
+
+}
+
+}else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" belum dijawab.<br>"+
+"Jawaban benar: "+
+pembahasanPG[kode]+
+"</p>";
+
+}
+
+} // PENUTUP for kunciPG
+
+let benarIsian = 0;
+
+for(let kode in kunciIsian){
+
+let isi =
+normal(
+document.getElementById(kode).value
+);
+
+let kunci =
+normal(kunciIsian[kode]);
+
+if(isi===""){
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" belum dijawab.<br>Jawaban benar: "+
+kunciIsian[kode]+
+"</p>";
+
+}
+else if(isi===kunci){
+
+benarIsian++;
+
+}
+else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" salah.<br>Jawaban benar: "+
+kunciIsian[kode]+
+"</p>";
+
+  }
+
+}
+
+const totalPG = Object.keys(kunciPG).length;
+const totalIsian = Object.keys(kunciIsian).length;
+
+let nilaiPG =
+(benarPG / totalPG) * 50;
+
+let nilaiIsian =
+(benarIsian / totalIsian) * 50;
+
+let nilaiAkhir =
+Math.round(nilaiPG + nilaiIsian);
+
+document.getElementById("hasil").style.display="block";
+
+document.getElementById("hasil").innerHTML=
+"<h2>Hasil Ujian</h2>"+
+"<p>Nama : "+document.getElementById("nama").value+"</p>"+
+"<p>Kelas : "+document.getElementById("kelas").value+"</p>"+
+"<p>Nilai PG : "+nilaiPG+"</p>"+
+"<p>Nilai Isian : "+nilaiIsian+"</p>"+
+"<p><b>Benar PG :</b> "+benarPG+" / "+totalPG+"</p>"+
+"<p><b>Benar Isian :</b> "+benarIsian+" / "+totalIsian+"</p>"+
+"<p><b>Nilai Akhir :</b> "+nilaiAkhir+"</p>"+
+nilaiAkhir+
+"</p>"+
+"<hr>"+
+"<h3>Jawaban Salah</h3>"+
+salahList+
+"<hr>"+
+
+"<h3>Uraian (Periksa Manual)</h3>"+
+
+"<p><b>51.</b> "+document.getElementById("uraian1").value+"</p>"+
+
+"<p><b>52.</b> "+document.getElementById("uraian2").value+"</p>"+
+
+"<p><b>53.</b> "+document.getElementById("uraian3").value+"</p>"+
+
+"<p><b>54.</b> "+document.getElementById("uraian4").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian5").value+"</p>"+
+
+  "<p><b>55.</b> "+document.getElementById("uraian6").value+"</p>"+
+
+  "<p><b>55.</b> "+document.getElementById("uraian7").value+"</p>"+
+
+  "<p><b>55.</b> "+document.getElementById("uraian8").value+"</p>"+
+
+"<br><br>"+
+
+"<button onclick='salinHasil()'>📋 SALIN HASIL</button>";
+}
+function salinHasil(){
+
+let teks =
+document.getElementById("hasil").innerText;
+
+navigator.clipboard.writeText(teks);
+
+alert("Hasil berhasil disalin");
+
+}
+</script>
+
+</body>
+</html>
