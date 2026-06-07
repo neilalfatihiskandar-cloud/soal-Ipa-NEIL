@@ -88,485 +88,1473 @@ font-weight:bold;
 
 <div class="soal">
   
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ujian PAI Kelas 8</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+margin:0;
+padding:15px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+h1{
+text-align:center;
+}
+
+input[type=text],
+textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+box-sizing:border-box;
+}
+
+.soal{
+margin-bottom:25px;
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+button{
+width:100%;
+padding:15px;
+font-size:18px;
+background:#198754;
+color:white;
+border:none;
+border-radius:8px;
+}
+
+#hasil{
+margin-top:20px;
+padding:15px;
+background:#eef;
+border-radius:8px;
+display:none;
+}
+
+.benar{
+color:green;
+font-weight:bold;
+}
+
+.salah{
+color:red;
+font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>UJIAN PAI KELAS 8</h1>
+
+<label>Nama Siswa</label> <input type="text" id="nama">
+
+<label>Kelas</label> <input type="text" id="kelas">
+
+<div id="soalArea">
+
+<!-- SOAL PG NANTI MASUK DI SINI -->
+
 <div class="soal">
-<p><b>1.</b> Jual beli adalah ....</p>
-<label><input type="radio" name="q1" value="A"> Tukar-menukar barang atau uang berdasarkan kesepakatan</label><br>
-<label><input type="radio" name="q1" value="B"> Meminjam barang tanpa izin</label><br>
-<label><input type="radio" name="q1" value="C"> Memberikan hadiah</label><br>
-<label><input type="radio" name="q1" value="D"> Menyewakan barang</label><br>
+  
+<div class="soal">
+<p><b>1.</b> Emas murni termasuk ....</p>
+<label><input type="radio" name="q1" value="A"> Campuran</label><br>
+<label><input type="radio" name="q1" value="B"> Senyawa</label><br>
+<label><input type="radio" name="q1" value="C"> Unsur</label><br>
+<label><input type="radio" name="q1" value="D"> Larutan</label><br>
 </div>
 
 <div class="soal">
-<p><b>2.</b> Orang yang menjual barang disebut ....</p>
-<label><input type="radio" name="q2" value="A"> Musytari</label><br>
-<label><input type="radio" name="q2" value="B"> Muqridh</label><br>
-<label><input type="radio" name="q2" value="C"> Ba'i</label><br>
-<label><input type="radio" name="q2" value="D"> Muqtaridh</label><br>
+<p><b>2.</b> Lambang unsur emas adalah ....</p>
+<label><input type="radio" name="q2" value="A"> Ag</label><br>
+<label><input type="radio" name="q2" value="B"> Al</label><br>
+<label><input type="radio" name="q2" value="C"> Au</label><br>
+<label><input type="radio" name="q2" value="D"> Ar</label><br>
 </div>
 
 <div class="soal">
-<p><b>3.</b> Orang yang membeli barang disebut ....</p>
-<label><input type="radio" name="q3" value="A"> Musytari</label><br>
-<label><input type="radio" name="q3" value="B"> Ba'i</label><br>
-<label><input type="radio" name="q3" value="C"> Muqridh</label><br>
-<label><input type="radio" name="q3" value="D"> Malik</label><br>
+<p><b>3.</b> Kata Au berasal dari kata ....</p>
+<label><input type="radio" name="q3" value="A"> Argentum</label><br>
+<label><input type="radio" name="q3" value="B"> Aurum</label><br>
+<label><input type="radio" name="q3" value="C"> Aluminium</label><br>
+<label><input type="radio" name="q3" value="D"> Atomium</label><br>
 </div>
 
 <div class="soal">
-<p><b>4.</b> Salah satu rukun jual beli adalah ....</p>
-<label><input type="radio" name="q4" value="A"> Paksaan</label><br>
-<label><input type="radio" name="q4" value="B"> Penjual dan pembeli</label><br>
-<label><input type="radio" name="q4" value="C"> Perselisihan</label><br>
-<label><input type="radio" name="q4" value="D"> Kerugian</label><br>
+<p><b>4.</b> Unsur adalah zat yang tersusun dari ....</p>
+<label><input type="radio" name="q4" value="A"> Banyak senyawa</label><br>
+<label><input type="radio" name="q4" value="B"> Satu jenis atom</label><br>
+<label><input type="radio" name="q4" value="C"> Banyak campuran</label><br>
+<label><input type="radio" name="q4" value="D"> Berbagai molekul</label><br>
 </div>
 
 <div class="soal">
-<p><b>5.</b> Hak memilih untuk melanjutkan atau membatalkan jual beli disebut ....</p>
-<label><input type="radio" name="q5" value="A"> Riba</label><br>
-<label><input type="radio" name="q5" value="B"> Qardh</label><br>
-<label><input type="radio" name="q5" value="C"> Khiyar</label><br>
-<label><input type="radio" name="q5" value="D"> Ijab</label><br>
+<p><b>5.</b> Jumlah unsur yang telah berhasil diidentifikasi adalah ....</p>
+<label><input type="radio" name="q5" value="A"> 108</label><br>
+<label><input type="radio" name="q5" value="B"> 116</label><br>
+<label><input type="radio" name="q5" value="C"> 118</label><br>
+<label><input type="radio" name="q5" value="D"> 120</label><br>
 </div>
 
 <div class="soal">
-<p><b>6.</b> Khiyar yang berlaku selama penjual dan pembeli masih berada di tempat transaksi disebut ....</p>
-<label><input type="radio" name="q6" value="A"> Khiyar Aib</label><br>
-<label><input type="radio" name="q6" value="B"> Khiyar Syarat</label><br>
-<label><input type="radio" name="q6" value="C"> Khiyar Majelis</label><br>
-<label><input type="radio" name="q6" value="D"> Khiyar Ru'yah</label><br>
+<p><b>6.</b> Unsur alami yang telah diidentifikasi berjumlah ....</p>
+<label><input type="radio" name="q6" value="A"> 24</label><br>
+<label><input type="radio" name="q6" value="B"> 94</label><br>
+<label><input type="radio" name="q6" value="C"> 118</label><br>
+<label><input type="radio" name="q6" value="D"> 120</label><br>
 </div>
 
 <div class="soal">
-<p><b>7.</b> Khiyar karena ditemukan cacat pada barang disebut ....</p>
-<label><input type="radio" name="q7" value="A"> Khiyar Aib</label><br>
-<label><input type="radio" name="q7" value="B"> Khiyar Majelis</label><br>
-<label><input type="radio" name="q7" value="C"> Khiyar Syarat</label><br>
-<label><input type="radio" name="q7" value="D"> Riba</label><br>
+<p><b>7.</b> Unsur sintetis yang telah diidentifikasi berjumlah ....</p>
+<label><input type="radio" name="q7" value="A"> 24</label><br>
+<label><input type="radio" name="q7" value="B"> 94</label><br>
+<label><input type="radio" name="q7" value="C"> 118</label><br>
+<label><input type="radio" name="q7" value="D"> 124</label><br>
 </div>
 
 <div class="soal">
-<p><b>8.</b> Orang yang memberikan pinjaman disebut ....</p>
-<label><input type="radio" name="q8" value="A"> Muqtaridh</label><br>
-<label><input type="radio" name="q8" value="B"> Muqridh</label><br>
-<label><input type="radio" name="q8" value="C"> Musytari</label><br>
-<label><input type="radio" name="q8" value="D"> Ba'i</label><br>
+<p><b>8.</b> Air merupakan contoh ....</p>
+<label><input type="radio" name="q8" value="A"> Unsur</label><br>
+<label><input type="radio" name="q8" value="B"> Senyawa</label><br>
+<label><input type="radio" name="q8" value="C"> Campuran</label><br>
+<label><input type="radio" name="q8" value="D"> Atom</label><br>
 </div>
 
 <div class="soal">
-<p><b>9.</b> Orang yang menerima pinjaman disebut ....</p>
-<label><input type="radio" name="q9" value="A"> Muqtaridh</label><br>
-<label><input type="radio" name="q9" value="B"> Muqridh</label><br>
-<label><input type="radio" name="q9" value="C"> Ba'i</label><br>
-<label><input type="radio" name="q9" value="D"> Musytari</label><br>
+<p><b>9.</b> Rumus kimia air adalah ....</p>
+<label><input type="radio" name="q9" value="A"> H₂</label><br>
+<label><input type="radio" name="q9" value="B"> O₂</label><br>
+<label><input type="radio" name="q9" value="C"> H₂O</label><br>
+<label><input type="radio" name="q9" value="D"> CO₂</label><br>
 </div>
 
 <div class="soal">
-<p><b>10.</b> Tambahan yang disyaratkan dalam hutang piutang disebut ....</p>
-<label><input type="radio" name="q10" value="A"> Sedekah</label><br>
-<label><input type="radio" name="q10" value="B"> Zakat</label><br>
-<label><input type="radio" name="q10" value="C"> Riba</label><br>
-<label><input type="radio" name="q10" value="D"> Wakaf</label><br>
+<p><b>10.</b> Satu molekul air tersusun atas ....</p>
+<label><input type="radio" name="q10" value="A"> 2 atom H dan 1 atom O</label><br>
+<label><input type="radio" name="q10" value="B"> 1 atom H dan 2 atom O</label><br>
+<label><input type="radio" name="q10" value="C"> 2 atom H dan 2 atom O</label><br>
+<label><input type="radio" name="q10" value="D"> 1 atom H dan 1 atom O</label><br>
 </div>
 
 <div class="soal">
-<p><b>11.</b> Riba yang terjadi karena pertukaran barang sejenis dengan jumlah berbeda disebut ....</p>
-<label><input type="radio" name="q11" value="A"> Riba Qardh</label><br>
-<label><input type="radio" name="q11" value="B"> Riba Fadhl</label><br>
-<label><input type="radio" name="q11" value="C"> Riba Nasi'ah</label><br>
-<label><input type="radio" name="q11" value="D"> Riba Jahiliyah</label><br>
+<p><b>11.</b> Senyawa adalah zat yang tersusun dari ....</p>
+<label><input type="radio" name="q11" value="A"> Satu jenis atom</label><br>
+<label><input type="radio" name="q11" value="B"> Dua atau lebih unsur</label><br>
+<label><input type="radio" name="q11" value="C"> Campuran udara</label><br>
+<label><input type="radio" name="q11" value="D"> Elektron saja</label><br>
 </div>
 
 <div class="soal">
-<p><b>12.</b> Riba yang terjadi karena penundaan pembayaran hutang disebut ....</p>
-<label><input type="radio" name="q12" value="A"> Riba Fadhl</label><br>
-<label><input type="radio" name="q12" value="B"> Riba Qardh</label><br>
-<label><input type="radio" name="q12" value="C"> Riba Nasi'ah</label><br>
-<label><input type="radio" name="q12" value="D"> Riba Yad</label><br>
+<p><b>12.</b> Senyawa dapat dipisahkan menjadi unsur-unsur pembentuknya melalui ....</p>
+<label><input type="radio" name="q12" value="A"> Penyaringan</label><br>
+<label><input type="radio" name="q12" value="B"> Pengadukan</label><br>
+<label><input type="radio" name="q12" value="C"> Reaksi kimia</label><br>
+<label><input type="radio" name="q12" value="D"> Penguapan</label><br>
 </div>
 
 <div class="soal">
-<p><b>13.</b> Salah satu dampak riba adalah ....</p>
-<label><input type="radio" name="q13" value="A"> Menambah keberkahan</label><br>
-<label><input type="radio" name="q13" value="B"> Menimbulkan keadilan</label><br>
-<label><input type="radio" name="q13" value="C"> Menimbulkan kesenjangan sosial</label><br>
-<label><input type="radio" name="q13" value="D"> Menambah persaudaraan</label><br>
+<p><b>13.</b> Bagian terkecil unsur disebut ....</p>
+<label><input type="radio" name="q13" value="A"> Molekul</label><br>
+<label><input type="radio" name="q13" value="B"> Inti</label><br>
+<label><input type="radio" name="q13" value="C"> Atom</label><br>
+<label><input type="radio" name="q13" value="D"> Ion</label><br>
 </div>
 
 <div class="soal">
-<p><b>14.</b> Dinasti yang dikenal sebagai masa keemasan ilmu pengetahuan Islam adalah ....</p>
-<label><input type="radio" name="q14" value="A"> Umayyah</label><br>
-<label><input type="radio" name="q14" value="B"> Abbasiyah</label><br>
-<label><input type="radio" name="q14" value="C"> Fatimiyah</label><br>
-<label><input type="radio" name="q14" value="D"> Ayyubiyah</label><br>
+<p><b>14.</b> Atom terdiri atas ....</p>
+<label><input type="radio" name="q14" value="A"> Proton dan elektron</label><br>
+<label><input type="radio" name="q14" value="B"> Inti atom dan elektron</label><br>
+<label><input type="radio" name="q14" value="C"> Neutron saja</label><br>
+<label><input type="radio" name="q14" value="D"> Elektron saja</label><br>
 </div>
 
 <div class="soal">
-<p><b>15.</b> Pusat pemerintahan Dinasti Abbasiyah berada di kota ....</p>
-<label><input type="radio" name="q15" value="A"> Makkah</label><br>
-<label><input type="radio" name="q15" value="B"> Madinah</label><br>
-<label><input type="radio" name="q15" value="C"> Baghdad</label><br>
-<label><input type="radio" name="q15" value="D"> Damaskus</label><br>
+<p><b>15.</b> Partikel bermuatan positif adalah ....</p>
+<label><input type="radio" name="q15" value="A"> Elektron</label><br>
+<label><input type="radio" name="q15" value="B"> Neutron</label><br>
+<label><input type="radio" name="q15" value="C"> Proton</label><br>
+<label><input type="radio" name="q15" value="D"> Molekul</label><br>
 </div>
 
 <div class="soal">
-<p><b>16.</b> Bayt al-Hikmah merupakan pusat ....</p>
-<label><input type="radio" name="q16" value="A"> Militer</label><br>
-<label><input type="radio" name="q16" value="B"> Perdagangan</label><br>
-<label><input type="radio" name="q16" value="C"> Ilmu pengetahuan</label><br>
-<label><input type="radio" name="q16" value="D"> Politik</label><br>
+<p><b>16.</b> Partikel bermuatan negatif adalah ....</p>
+<label><input type="radio" name="q16" value="A"> Proton</label><br>
+<label><input type="radio" name="q16" value="B"> Elektron</label><br>
+<label><input type="radio" name="q16" value="C"> Neutron</label><br>
+<label><input type="radio" name="q16" value="D"> Inti</label><br>
 </div>
 
 <div class="soal">
-<p><b>17.</b> Salah satu fungsi Bayt al-Hikmah adalah ....</p>
-<label><input type="radio" name="q17" value="A"> Tempat latihan perang</label><br>
-<label><input type="radio" name="q17" value="B"> Pusat penerjemahan buku</label><br>
-<label><input type="radio" name="q17" value="C"> Penjara</label><br>
-<label><input type="radio" name="q17" value="D"> Pasar</label><br>
+<p><b>17.</b> Partikel yang tidak bermuatan adalah ....</p>
+<label><input type="radio" name="q17" value="A"> Elektron</label><br>
+<label><input type="radio" name="q17" value="B"> Neutron</label><br>
+<label><input type="radio" name="q17" value="C"> Proton</label><br>
+<label><input type="radio" name="q17" value="D"> Ion</label><br>
 </div>
 
 <div class="soal">
-<p><b>18.</b> Tokoh muslim yang terkenal di bidang kedokteran adalah ....</p>
-<label><input type="radio" name="q18" value="A"> Al-Kindi</label><br>
-<label><input type="radio" name="q18" value="B"> Al-Farabi</label><br>
-<label><input type="radio" name="q18" value="C"> Ibnu Sina</label><br>
-<label><input type="radio" name="q18" value="D"> Imam Malik</label><br>
+<p><b>18.</b> Elektron bergerak pada ....</p>
+<label><input type="radio" name="q18" value="A"> Inti atom</label><br>
+<label><input type="radio" name="q18" value="B"> Proton</label><br>
+<label><input type="radio" name="q18" value="C"> Orbit di sekitar inti</label><br>
+<label><input type="radio" name="q18" value="D"> Neutron</label><br>
 </div>
 
 <div class="soal">
-<p><b>19.</b> Karya terkenal Ibnu Sina adalah ....</p>
-<label><input type="radio" name="q19" value="A"> Shahih Bukhari</label><br>
-<label><input type="radio" name="q19" value="B"> Al-Qanun fi al-Tibb</label><br>
-<label><input type="radio" name="q19" value="C"> Al-Muwatta</label><br>
-<label><input type="radio" name="q19" value="D"> Al-Umm</label><br>
+<p><b>19.</b> Huruf X pada lambang atom menunjukkan ....</p>
+<label><input type="radio" name="q19" value="A"> Lambang atom</label><br>
+<label><input type="radio" name="q19" value="B"> Nomor massa</label><br>
+<label><input type="radio" name="q19" value="C"> Nomor atom</label><br>
+<label><input type="radio" name="q19" value="D"> Elektron</label><br>
 </div>
 
 <div class="soal">
-<p><b>20.</b> Ibnu Sina dijuluki sebagai ....</p>
-<label><input type="radio" name="q20" value="A"> Bapak Filsafat Islam</label><br>
-<label><input type="radio" name="q20" value="B"> Bapak Kedokteran Modern</label><br>
-<label><input type="radio" name="q20" value="C"> Ahli Hadis</label><br>
-<label><input type="radio" name="q20" value="D"> Pendiri Mazhab</label><br>
+<p><b>20.</b> Huruf A pada lambang atom menunjukkan ....</p>
+<label><input type="radio" name="q20" value="A"> Elektron</label><br>
+<label><input type="radio" name="q20" value="B"> Nomor massa</label><br>
+<label><input type="radio" name="q20" value="C"> Proton</label><br>
+<label><input type="radio" name="q20" value="D"> Unsur</label><br>
 </div>
 
 <div class="soal">
-<p><b>21.</b> Tokoh yang dikenal sebagai Bapak Filsafat Islam adalah ....</p>
-<label><input type="radio" name="q21" value="A"> Ibnu Sina</label><br>
-<label><input type="radio" name="q21" value="B"> Al-Kindi</label><br>
-<label><input type="radio" name="q21" value="C"> Imam Muslim</label><br>
-<label><input type="radio" name="q21" value="D"> Abu Hanifah</label><br>
+<p><b>21.</b> Huruf Z pada lambang atom menunjukkan ....</p>
+<label><input type="radio" name="q21" value="A"> Nomor massa</label><br>
+<label><input type="radio" name="q21" value="B"> Neutron</label><br>
+<label><input type="radio" name="q21" value="C"> Nomor atom</label><br>
+<label><input type="radio" name="q21" value="D"> Elektron</label><br>
 </div>
 
 <div class="soal">
-<p><b>22.</b> Al-Farabi terkenal dalam bidang ....</p>
-<label><input type="radio" name="q22" value="A"> Filsafat</label><br>
-<label><input type="radio" name="q22" value="B"> Kedokteran</label><br>
-<label><input type="radio" name="q22" value="C"> Hadis</label><br>
-<label><input type="radio" name="q22" value="D"> Fikih</label><br>
+<p><b>22.</b> Nomor atom menunjukkan jumlah ....</p>
+<label><input type="radio" name="q22" value="A"> Proton</label><br>
+<label><input type="radio" name="q22" value="B"> Neutron</label><br>
+<label><input type="radio" name="q22" value="C"> Molekul</label><br>
+<label><input type="radio" name="q22" value="D"> Senyawa</label><br>
 </div>
 
 <div class="soal">
-<p><b>23.</b> Pendiri Mazhab Hanafi adalah ....</p>
-<label><input type="radio" name="q23" value="A"> Imam Malik</label><br>
-<label><input type="radio" name="q23" value="B"> Imam Syafi'i</label><br>
-<label><input type="radio" name="q23" value="C"> Abu Hanifah</label><br>
-<label><input type="radio" name="q23" value="D"> Ahmad bin Hanbal</label><br>
+<p><b>23.</b> Nomor massa menunjukkan jumlah ....</p>
+<label><input type="radio" name="q23" value="A"> Proton dan neutron</label><br>
+<label><input type="radio" name="q23" value="B"> Elektron</label><br>
+<label><input type="radio" name="q23" value="C"> Proton saja</label><br>
+<label><input type="radio" name="q23" value="D"> Neutron saja</label><br>
 </div>
 
 <div class="soal">
-<p><b>24.</b> Pendiri Mazhab Maliki adalah ....</p>
-<label><input type="radio" name="q24" value="A"> Imam Malik</label><br>
-<label><input type="radio" name="q24" value="B"> Imam Syafi'i</label><br>
-<label><input type="radio" name="q24" value="C"> Abu Hanifah</label><br>
-<label><input type="radio" name="q24" value="D"> Imam Muslim</label><br>
+<p><b>24.</b> O₂ disebut ....</p>
+<label><input type="radio" name="q24" value="A"> Molekul senyawa</label><br>
+<label><input type="radio" name="q24" value="B"> Molekul unsur</label><br>
+<label><input type="radio" name="q24" value="C"> Campuran</label><br>
+<label><input type="radio" name="q24" value="D"> Larutan</label><br>
 </div>
 
 <div class="soal">
-<p><b>25.</b> Pendiri Mazhab Syafi'i adalah ....</p>
-<label><input type="radio" name="q25" value="A"> Abu Hanifah</label><br>
-<label><input type="radio" name="q25" value="B"> Imam Malik</label><br>
-<label><input type="radio" name="q25" value="C"> Imam Syafi'i</label><br>
-<label><input type="radio" name="q25" value="D"> Ahmad bin Hanbal</label><br>
+<p><b>25.</b> CO₂ disebut ....</p>
+<label><input type="radio" name="q25" value="A"> Molekul unsur</label><br>
+<label><input type="radio" name="q25" value="B"> Campuran</label><br>
+<label><input type="radio" name="q25" value="C"> Molekul senyawa</label><br>
+<label><input type="radio" name="q25" value="D"> Unsur</label><br>
 </div>
 
 <div class="soal">
-<p><b>26.</b> Pendiri Mazhab Hanbali adalah ....</p>
-<label><input type="radio" name="q26" value="A"> Ahmad bin Hanbal</label><br>
-<label><input type="radio" name="q26" value="B"> Imam Malik</label><br>
-<label><input type="radio" name="q26" value="C"> Imam Syafi'i</label><br>
-<label><input type="radio" name="q26" value="D"> Abu Hanifah</label><br>
+<p><b>26.</b> CO₂ tersusun atas ....</p>
+<label><input type="radio" name="q26" value="A"> 2 atom C</label><br>
+<label><input type="radio" name="q26" value="B"> 2 atom O</label><br>
+<label><input type="radio" name="q26" value="C"> 1 atom C dan 2 atom O</label><br>
+<label><input type="radio" name="q26" value="D"> 2 atom C dan 1 atom O</label><br>
 </div>
 
 <div class="soal">
-<p><b>27.</b> Kitab Shahih Bukhari disusun oleh ....</p>
-<label><input type="radio" name="q27" value="A"> Imam Muslim</label><br>
-<label><input type="radio" name="q27" value="B"> Imam Bukhari</label><br>
-<label><input type="radio" name="q27" value="C"> Imam Malik</label><br>
-<label><input type="radio" name="q27" value="D"> Imam Syafi'i</label><br>
+<p><b>27.</b> Udara merupakan contoh ....</p>
+<label><input type="radio" name="q27" value="A"> Unsur</label><br>
+<label><input type="radio" name="q27" value="B"> Senyawa</label><br>
+<label><input type="radio" name="q27" value="C"> Campuran</label><br>
+<label><input type="radio" name="q27" value="D"> Atom</label><br>
 </div>
 
 <div class="soal">
-<p><b>28.</b> Kitab Shahih Muslim disusun oleh ....</p>
-<label><input type="radio" name="q28" value="A"> Imam Muslim</label><br>
-<label><input type="radio" name="q28" value="B"> Imam Bukhari</label><br>
-<label><input type="radio" name="q28" value="C"> Imam Malik</label><br>
-<label><input type="radio" name="q28" value="D"> Abu Hanifah</label><br>
+<p><b>28.</b> Campuran memiliki perbandingan komponen yang ....</p>
+<label><input type="radio" name="q28" value="A"> Tetap</label><br>
+<label><input type="radio" name="q28" value="B"> Sama</label><br>
+<label><input type="radio" name="q28" value="C"> Tidak tetap</label><br>
+<label><input type="radio" name="q28" value="D"> Pasti</label><br>
 </div>
 
 <div class="soal">
-<p><b>29.</b> Salah satu faktor kemajuan Abbasiyah adalah ....</p>
-<label><input type="radio" name="q29" value="A"> Larangan membaca</label><br>
-<label><input type="radio" name="q29" value="B"> Menghargai ilmu pengetahuan</label><br>
-<label><input type="radio" name="q29" value="C"> Menutup perpustakaan</label><br>
-<label><input type="radio" name="q29" value="D"> Melarang penelitian</label><br>
+<p><b>29.</b> Campuran air dan pasir termasuk ....</p>
+<label><input type="radio" name="q29" value="A"> Homogen</label><br>
+<label><input type="radio" name="q29" value="B"> Heterogen</label><br>
+<label><input type="radio" name="q29" value="C"> Senyawa</label><br>
+<label><input type="radio" name="q29" value="D"> Unsur</label><br>
 </div>
 
 <div class="soal">
-<p><b>30.</b> Kontribusi ilmuwan muslim pada masa Abbasiyah bermanfaat bagi ....</p>
-<label><input type="radio" name="q30" value="A"> Dunia Islam saja</label><br>
-<label><input type="radio" name="q30" value="B"> Bangsa Arab saja</label><br>
-<label><input type="radio" name="q30" value="C"> Kemanusiaan dan peradaban dunia</label><br>
-<label><input type="radio" name="q30" value="D"> Kalangan tertentu saja</label><br>
+<p><b>30.</b> Campuran sirup dan air termasuk ....</p>
+<label><input type="radio" name="q30" value="A"> Heterogen</label><br>
+<label><input type="radio" name="q30" value="B"> Unsur</label><br>
+<label><input type="radio" name="q30" value="C"> Homogen</label><br>
+<label><input type="radio" name="q30" value="D"> Senyawa</label><br>
 </div>
 
 <div class="soal">
-<p><b>31.</b> Barang yang diperjualbelikan harus bersifat ....</p>
-<label><input type="radio" name="q31" value="A"> Haram</label><br>
-<label><input type="radio" name="q31" value="B"> Tidak jelas</label><br>
-<label><input type="radio" name="q31" value="C"> Halal dan bermanfaat</label><br>
-<label><input type="radio" name="q31" value="D"> Milik orang lain</label><br>
+<p><b>31.</b> Campuran homogen yang berbentuk cair disebut ....</p>
+<label><input type="radio" name="q31" value="A"> Unsur</label><br>
+<label><input type="radio" name="q31" value="B"> Senyawa</label><br>
+<label><input type="radio" name="q31" value="C"> Larutan</label><br>
+<label><input type="radio" name="q31" value="D"> Atom</label><br>
 </div>
 
 <div class="soal">
-<p><b>32.</b> Pernyataan setuju antara penjual dan pembeli disebut ....</p>
-<label><input type="radio" name="q32" value="A"> Riba</label><br>
-<label><input type="radio" name="q32" value="B"> Ijab kabul</label><br>
-<label><input type="radio" name="q32" value="C"> Khiyar</label><br>
-<label><input type="radio" name="q32" value="D"> Qardh</label><br>
+<p><b>32.</b> Simbol unsur perak adalah ....</p>
+<label><input type="radio" name="q32" value="A"> Au</label><br>
+<label><input type="radio" name="q32" value="B"> Hg</label><br>
+<label><input type="radio" name="q32" value="C"> Ag</label><br>
+<label><input type="radio" name="q32" value="D"> Al</label><br>
 </div>
 
 <div class="soal">
-<p><b>33.</b> Salah satu syarat penjual dan pembeli adalah ....</p>
-<label><input type="radio" name="q33" value="A"> Dipaksa</label><br>
-<label><input type="radio" name="q33" value="B"> Berakal</label><br>
-<label><input type="radio" name="q33" value="C"> Tidak mengetahui barang</label><br>
-<label><input type="radio" name="q33" value="D"> Curang</label><br>
+<p><b>33.</b> Simbol unsur merkuri adalah ....</p>
+<label><input type="radio" name="q33" value="A"> Mg</label><br>
+<label><input type="radio" name="q33" value="B"> Ag</label><br>
+<label><input type="radio" name="q33" value="C"> Hg</label><br>
+<label><input type="radio" name="q33" value="D"> H</label><br>
 </div>
 
 <div class="soal">
-<p><b>34.</b> Khiyar syarat terjadi apabila ....</p>
-<label><input type="radio" name="q34" value="A"> Ada waktu yang disepakati</label><br>
-<label><input type="radio" name="q34" value="B"> Barang rusak</label><br>
-<label><input type="radio" name="q34" value="C"> Masih di majelis</label><br>
-<label><input type="radio" name="q34" value="D"> Tidak ada akad</label><br>
+<p><b>34.</b> Garam dapur memiliki rumus ....</p>
+<label><input type="radio" name="q34" value="A"> HCl</label><br>
+<label><input type="radio" name="q34" value="B"> NaCl</label><br>
+<label><input type="radio" name="q34" value="C"> H₂O</label><br>
+<label><input type="radio" name="q34" value="D"> CO₂</label><br>
 </div>
 
 <div class="soal">
-<p><b>35.</b> Seorang pembeli menemukan cacat pada barang setelah sampai di rumah. Ia berhak menggunakan ....</p>
-<label><input type="radio" name="q35" value="A"> Khiyar Aib</label><br>
-<label><input type="radio" name="q35" value="B"> Khiyar Majelis</label><br>
-<label><input type="radio" name="q35" value="C"> Khiyar Syarat</label><br>
-<label><input type="radio" name="q35" value="D"> Riba</label><br>
+<p><b>35.</b> Asam klorida memiliki rumus ....</p>
+<label><input type="radio" name="q35" value="A"> HCl</label><br>
+<label><input type="radio" name="q35" value="B"> NaCl</label><br>
+<label><input type="radio" name="q35" value="C"> Ag</label><br>
+<label><input type="radio" name="q35" value="D"> Hg</label><br>
 </div>
 
 <div class="soal">
-<p><b>36.</b> Peminjam yang mampu tetapi sengaja menunda pembayaran hutang termasuk perbuatan ....</p>
-<label><input type="radio" name="q36" value="A"> Terpuji</label><br>
-<label><input type="radio" name="q36" value="B"> Tercela</label><br>
-<label><input type="radio" name="q36" value="C"> Sunnah</label><br>
-<label><input type="radio" name="q36" value="D"> Mubah</label><br>
+<p><b>36.</b> Jika batu kapur ditumbuk terus menerus maka ukuran batu kapur akan ....</p>
+<label><input type="radio" name="q36" value="A"> Membesar</label><br>
+<label><input type="radio" name="q36" value="B"> Tetap</label><br>
+<label><input type="radio" name="q36" value="C"> Mengecil</label><br>
+<label><input type="radio" name="q36" value="D"> Menguap</label><br>
 </div>
 
 <div class="soal">
-<p><b>37.</b> Dalam hutang piutang, sikap yang harus dimiliki pemberi hutang adalah ....</p>
-<label><input type="radio" name="q37" value="A"> Memaksa</label><br>
-<label><input type="radio" name="q37" value="B"> Ikhlas</label><br>
-<label><input type="radio" name="q37" value="C"> Marah</label><br>
-<label><input type="radio" name="q37" value="D"> Curiga</label><br>
+<p><b>37.</b> Walaupun ukuran batu kapur mengecil, sifat zatnya ....</p>
+<label><input type="radio" name="q37" value="A"> Berubah</label><br>
+<label><input type="radio" name="q37" value="B"> Tetap sama</label><br>
+<label><input type="radio" name="q37" value="C"> Hilang</label><br>
+<label><input type="radio" name="q37" value="D"> Menjadi unsur</label><br>
 </div>
 
 <div class="soal">
-<p><b>38.</b> Hukum riba dalam Islam adalah ....</p>
-<label><input type="radio" name="q38" value="A"> Sunnah</label><br>
-<label><input type="radio" name="q38" value="B"> Mubah</label><br>
-<label><input type="radio" name="q38" value="C"> Haram</label><br>
-<label><input type="radio" name="q38" value="D"> Makruh</label><br>
+<p><b>38.</b> Yang termasuk molekul unsur adalah ....</p>
+<label><input type="radio" name="q38" value="A"> CO₂</label><br>
+<label><input type="radio" name="q38" value="B"> H₂O</label><br>
+<label><input type="radio" name="q38" value="C"> O₂</label><br>
+<label><input type="radio" name="q38" value="D"> NaCl</label><br>
 </div>
 
 <div class="soal">
-<p><b>39.</b> Salah satu dampak riba adalah hilangnya ....</p>
-<label><input type="radio" name="q39" value="A"> Ilmu</label><br>
-<label><input type="radio" name="q39" value="B"> Keberkahan</label><br>
-<label><input type="radio" name="q39" value="C"> Persahabatan</label><br>
-<label><input type="radio" name="q39" value="D"> Kesehatan</label><br>
+<p><b>39.</b> Yang termasuk molekul senyawa adalah ....</p>
+<label><input type="radio" name="q39" value="A"> O₂</label><br>
+<label><input type="radio" name="q39" value="B"> CO₂</label><br>
+<label><input type="radio" name="q39" value="C"> Au</label><br>
+<label><input type="radio" name="q39" value="D"> Ag</label><br>
 </div>
 
 <div class="soal">
-<p><b>40.</b> Baghdad berkembang menjadi pusat ilmu karena ....</p>
-<label><input type="radio" name="q40" value="A"> Banyak ilmuwan dan perpustakaan</label><br>
-<label><input type="radio" name="q40" value="B"> Banyak peperangan</label><br>
-<label><input type="radio" name="q40" value="C"> Sedikit sekolah</label><br>
-<label><input type="radio" name="q40" value="D"> Menolak ilmu luar</label><br>
+<p><b>40.</b> O₂ tersusun atas ....</p>
+<label><input type="radio" name="q40" value="A"> Dua atom oksigen</label><br>
+<label><input type="radio" name="q40" value="B"> Satu atom oksigen</label><br>
+<label><input type="radio" name="q40" value="C"> Dua atom karbon</label><br>
+<label><input type="radio" name="q40" value="D"> Satu atom karbon dan satu atom oksigen</label><br>
 </div>
 
 <div class="soal">
-<p><b>41.</b> Bayt al-Hikmah juga berfungsi sebagai ....</p>
-<label><input type="radio" name="q41" value="A"> Perpustakaan</label><br>
-<label><input type="radio" name="q41" value="B"> Penjara</label><br>
-<label><input type="radio" name="q41" value="C"> Gudang senjata</label><br>
-<label><input type="radio" name="q41" value="D"> Istana</label><br>
+<p><b>41.</b> Campuran air dan pasir jika didiamkan akan ....</p>
+<label><input type="radio" name="q41" value="A"> Menjadi larutan</label><br>
+<label><input type="radio" name="q41" value="B"> Membentuk endapan</label><br>
+<label><input type="radio" name="q41" value="C"> Menjadi unsur</label><br>
+<label><input type="radio" name="q41" value="D"> Menguap seluruhnya</label><br>
 </div>
 
 <div class="soal">
-<p><b>42.</b> Al-Kindi terkenal dalam bidang ....</p>
-<label><input type="radio" name="q42" value="A"> Filsafat</label><br>
-<label><input type="radio" name="q42" value="B"> Kedokteran</label><br>
-<label><input type="radio" name="q42" value="C"> Hadis</label><br>
-<label><input type="radio" name="q42" value="D"> Tafsir</label><br>
+<p><b>42.</b> Campuran homogen memiliki sifat ....</p>
+<label><input type="radio" name="q42" value="A"> Tidak merata</label><br>
+<label><input type="radio" name="q42" value="B"> Berlapis</label><br>
+<label><input type="radio" name="q42" value="C"> Merata</label><br>
+<label><input type="radio" name="q42" value="D"> Kasar</label><br>
 </div>
 
 <div class="soal">
-<p><b>43.</b> Selain filsafat, Al-Kindi juga berkontribusi pada bidang ....</p>
-<label><input type="radio" name="q43" value="A"> Matematika</label><br>
-<label><input type="radio" name="q43" value="B"> Pertanian</label><br>
-<label><input type="radio" name="q43" value="C"> Perikanan</label><br>
-<label><input type="radio" name="q43" value="D"> Perdagangan</label><br>
+<p><b>43.</b> Campuran heterogen memiliki sifat ....</p>
+<label><input type="radio" name="q43" value="A"> Merata</label><br>
+<label><input type="radio" name="q43" value="B"> Tidak merata</label><br>
+<label><input type="radio" name="q43" value="C"> Sama seluruhnya</label><br>
+<label><input type="radio" name="q43" value="D"> Menyatu sempurna</label><br>
 </div>
 
 <div class="soal">
-<p><b>44.</b> Al-Farabi dikenal sebagai tokoh di bidang ....</p>
-<label><input type="radio" name="q44" value="A"> Filsafat</label><br>
-<label><input type="radio" name="q44" value="B"> Kedokteran</label><br>
-<label><input type="radio" name="q44" value="C"> Hadis</label><br>
-<label><input type="radio" name="q44" value="D"> Fikih</label><br>
+<p><b>44.</b> Unsur pada tabel periodik dikelompokkan berdasarkan ....</p>
+<label><input type="radio" name="q44" value="A"> Harga</label><br>
+<label><input type="radio" name="q44" value="B"> Warna</label><br>
+<label><input type="radio" name="q44" value="C"> Sifat fisika dan kimia</label><br>
+<label><input type="radio" name="q44" value="D"> Bentuk</label><br>
 </div>
 
 <div class="soal">
-<p><b>45.</b> Imam Syafi'i adalah pendiri mazhab ....</p>
-<label><input type="radio" name="q45" value="A"> Hanafi</label><br>
-<label><input type="radio" name="q45" value="B"> Maliki</label><br>
-<label><input type="radio" name="q45" value="C"> Syafi'i</label><br>
-<label><input type="radio" name="q45" value="D"> Hanbali</label><br>
+<p><b>45.</b> Berikut yang termasuk unsur adalah ....</p>
+<label><input type="radio" name="q45" value="A"> H₂O</label><br>
+<label><input type="radio" name="q45" value="B"> NaCl</label><br>
+<label><input type="radio" name="q45" value="C"> Ag</label><br>
+<label><input type="radio" name="q45" value="D"> CO₂</label><br>
 </div>
 
 <div class="soal">
-<p><b>46.</b> Imam Bukhari terkenal sebagai ulama ....</p>
-<label><input type="radio" name="q46" value="A"> Hadis</label><br>
-<label><input type="radio" name="q46" value="B"> Kedokteran</label><br>
-<label><input type="radio" name="q46" value="C"> Astronomi</label><br>
-<label><input type="radio" name="q46" value="D"> Kimia</label><br>
+<p><b>46.</b> Berikut yang termasuk senyawa adalah ....</p>
+<label><input type="radio" name="q46" value="A"> Au</label><br>
+<label><input type="radio" name="q46" value="B"> Ag</label><br>
+<label><input type="radio" name="q46" value="C"> H₂O</label><br>
+<label><input type="radio" name="q46" value="D"> Hg</label><br>
 </div>
 
 <div class="soal">
-<p><b>47.</b> Salah satu faktor kemajuan Abbasiyah adalah ....</p>
-<label><input type="radio" name="q47" value="A"> Dukungan khalifah terhadap ilmu</label><br>
-<label><input type="radio" name="q47" value="B"> Larangan belajar</label><br>
-<label><input type="radio" name="q47" value="C"> Penutupan sekolah</label><br>
-<label><input type="radio" name="q47" value="D"> Pengurangan buku</label><br>
+<p><b>47.</b> Yang bukan penyusun udara menurut materi adalah ....</p>
+<label><input type="radio" name="q47" value="A"> O₂</label><br>
+<label><input type="radio" name="q47" value="B"> N₂</label><br>
+<label><input type="radio" name="q47" value="C"> CO₂</label><br>
+<label><input type="radio" name="q47" value="D"> Au</label><br>
 </div>
 
 <div class="soal">
-<p><b>48.</b> Ilmu dari berbagai negara berkembang di Baghdad melalui kegiatan ....</p>
-<label><input type="radio" name="q48" value="A"> Penerjemahan buku</label><br>
-<label><input type="radio" name="q48" value="B"> Perang</label><br>
-<label><input type="radio" name="q48" value="C"> Perbudakan</label><br>
-<label><input type="radio" name="q48" value="D"> Penjajahan</label><br>
+<p><b>48.</b> Senyawa memiliki sifat yang ....</p>
+<label><input type="radio" name="q48" value="A"> Sama dengan unsur pembentuknya</label><br>
+<label><input type="radio" name="q48" value="B"> Berbeda dengan unsur pembentuknya</label><br>
+<label><input type="radio" name="q48" value="C"> Tidak dapat diamati</label><br>
+<label><input type="radio" name="q48" value="D"> Selalu cair</label><br>
 </div>
 
 <div class="soal">
-<p><b>49.</b> Perkembangan ilmu pengetahuan menunjukkan bahwa Islam ....</p>
-<label><input type="radio" name="q49" value="A"> Membenci ilmu</label><br>
-<label><input type="radio" name="q49" value="B"> Menghargai ilmu</label><br>
-<label><input type="radio" name="q49" value="C"> Melarang penelitian</label><br>
-<label><input type="radio" name="q49" value="D"> Menolak pendidikan</label><br>
+<p><b>49.</b> Semua makanan dan minuman tersusun atas ....</p>
+<label><input type="radio" name="q49" value="A"> Zat kimia</label><br>
+<label><input type="radio" name="q49" value="B"> Cahaya</label><br>
+<label><input type="radio" name="q49" value="C"> Energi</label><br>
+<label><input type="radio" name="q49" value="D"> Suara</label><br>
 </div>
 
 <div class="soal">
-<p><b>50.</b> Menuntut ilmu dan mengembangkan pengetahuan merupakan teladan dari ....</p>
-<label><input type="radio" name="q50" value="A"> Ilmuwan Muslim Abbasiyah</label><br>
-<label><input type="radio" name="q50" value="B"> Pedagang jahiliyah</label><br>
-<label><input type="radio" name="q50" value="C"> Pelaku riba</label><br>
-<label><input type="radio" name="q50" value="D"> Kaum musyrik</label><br>
+<p><b>50.</b> Slogan yang lebih tepat daripada "Tanpa Bahan Kimia" adalah ....</p>
+<label><input type="radio" name="q50" value="A"> Tanpa Unsur</label><br>
+<label><input type="radio" name="q50" value="B"> Tanpa Senyawa</label><br>
+<label><input type="radio" name="q50" value="C"> Tanpa Bahan Pengawet Sintetis</label><br>
+<label><input type="radio" name="q50" value="D"> Tanpa Zat</label><br>
 </div>
 
 <div class="soal">
-<p><b>51.</b> Kata tasamuh memiliki arti ....</p>
-<label><input type="radio" name="q51" value="A"> Perselisihan</label><br>
-<label><input type="radio" name="q51" value="B"> Tenggang rasa</label><br>
-<label><input type="radio" name="q51" value="C"> Permusuhan</label><br>
-<label><input type="radio" name="q51" value="D"> Fanatisme</label><br>
+<p><b>51.</b> Berdasarkan pengamatan Apollo 8 tahun 1968, Bumi terlihat seperti ....</p>
+<label><input type="radio" name="q51" value="A"> Kubus biru</label><br>
+<label><input type="radio" name="q51" value="B"> Bulatan biru</label><br>
+<label><input type="radio" name="q51" value="C"> Piramida biru</label><br>
+<label><input type="radio" name="q51" value="D"> Lingkaran merah</label><br>
 </div>
 
 <div class="soal">
-<p><b>52.</b> Sikap menghormati dan menghargai perbedaan disebut ....</p>
-<label><input type="radio" name="q52" value="A"> Tasamuh</label><br>
-<label><input type="radio" name="q52" value="B"> Riya</label><br>
-<label><input type="radio" name="q52" value="C"> Takabur</label><br>
-<label><input type="radio" name="q52" value="D"> Hasad</label><br>
+<p><b>52.</b> Warna biru Bumi disebabkan oleh ....</p>
+<label><input type="radio" name="q52" value="A"> Atmosfer</label><br>
+<label><input type="radio" name="q52" value="B"> Awan</label><br>
+<label><input type="radio" name="q52" value="C"> Hidrosfer</label><br>
+<label><input type="radio" name="q52" value="D"> Litosfer</label><br>
 </div>
 
 <div class="soal">
-<p><b>53.</b> "Untukmu agamamu dan untukku agamaku" terdapat dalam QS ....</p>
-<label><input type="radio" name="q53" value="A"> Al-Ikhlas</label><br>
-<label><input type="radio" name="q53" value="B"> Al-Kafirun</label><br>
-<label><input type="radio" name="q53" value="C"> Al-Falaq</label><br>
-<label><input type="radio" name="q53" value="D"> An-Nas</label><br>
+<p><b>53.</b> Sebagian besar permukaan Bumi tertutup oleh ....</p>
+<label><input type="radio" name="q53" value="A"> Gurun</label><br>
+<label><input type="radio" name="q53" value="B"> Air</label><br>
+<label><input type="radio" name="q53" value="C"> Hutan</label><br>
+<label><input type="radio" name="q53" value="D"> Pegunungan</label><br>
 </div>
 
 <div class="soal">
-<p><b>54.</b> "Tidak ada paksaan dalam beragama" terdapat dalam QS ....</p>
-<label><input type="radio" name="q54" value="A"> Al-Baqarah ayat 256</label><br>
-<label><input type="radio" name="q54" value="B"> Al-Kafirun ayat 6</label><br>
-<label><input type="radio" name="q54" value="C"> Al-Maun</label><br>
-<label><input type="radio" name="q54" value="D"> Al-Ashr</label><br>
+<p><b>54.</b> Keliling Bumi kurang lebih ....</p>
+<label><input type="radio" name="q54" value="A"> 4.000 km</label><br>
+<label><input type="radio" name="q54" value="B"> 40.000 km</label><br>
+<label><input type="radio" name="q54" value="C"> 400.000 km</label><br>
+<label><input type="radio" name="q54" value="D"> 4 juta km</label><br>
 </div>
 
 <div class="soal">
-<p><b>55.</b> Salah satu unsur toleransi adalah ....</p>
-<label><input type="radio" name="q55" value="A"> Kerja sama</label><br>
-<label><input type="radio" name="q55" value="B"> Kebencian</label><br>
-<label><input type="radio" name="q55" value="C"> Fanatisme</label><br>
-<label><input type="radio" name="q55" value="D"> Permusuhan</label><br>
+<p><b>55.</b> Jarak Bumi ke Matahari sekitar ....</p>
+<label><input type="radio" name="q55" value="A"> 15 juta km</label><br>
+<label><input type="radio" name="q55" value="B"> 50 juta km</label><br>
+<label><input type="radio" name="q55" value="C"> 150 juta km</label><br>
+<label><input type="radio" name="q55" value="D"> 500 juta km</label><br>
 </div>
 
 <div class="soal">
-<p><b>56.</b> Salah satu manfaat toleransi adalah ....</p>
-<label><input type="radio" name="q56" value="A"> Menambah konflik</label><br>
-<label><input type="radio" name="q56" value="B"> Menciptakan kerukunan</label><br>
-<label><input type="radio" name="q56" value="C"> Memecah persatuan</label><br>
-<label><input type="radio" name="q56" value="D"> Menimbulkan permusuhan</label><br>
+<p><b>56.</b> Atmosfer merupakan lapisan ....</p>
+<label><input type="radio" name="q56" value="A"> Air</label><br>
+<label><input type="radio" name="q56" value="B"> Udara</label><br>
+<label><input type="radio" name="q56" value="C"> Tanah</label><br>
+<label><input type="radio" name="q56" value="D"> Logam</label><br>
 </div>
 
 <div class="soal">
-<p><b>57.</b> Menghormati teman yang berbeda agama di sekolah merupakan contoh ....</p>
-<label><input type="radio" name="q57" value="A"> Tasamuh</label><br>
-<label><input type="radio" name="q57" value="B"> Takabur</label><br>
-<label><input type="radio" name="q57" value="C"> Riya</label><br>
-<label><input type="radio" name="q57" value="D"> Hasad</label><br>
+<p><b>57.</b> Hidrosfer merupakan lapisan ....</p>
+<label><input type="radio" name="q57" value="A"> Air</label><br>
+<label><input type="radio" name="q57" value="B"> Udara</label><br>
+<label><input type="radio" name="q57" value="C"> Tanah</label><br>
+<label><input type="radio" name="q57" value="D"> Inti bumi</label><br>
 </div>
 
 <div class="soal">
-<p><b>58.</b> Sikap yang tidak sesuai dengan tasamuh adalah ....</p>
-<label><input type="radio" name="q58" value="A"> Menghormati orang lain</label><br>
-<label><input type="radio" name="q58" value="B"> Membantu tetangga</label><br>
-<label><input type="radio" name="q58" value="C"> Menghina agama lain</label><br>
-<label><input type="radio" name="q58" value="D"> Menjaga kerukunan</label><br>
+<p><b>58.</b> Litosfer merupakan lapisan ....</p>
+<label><input type="radio" name="q58" value="A"> Udara</label><br>
+<label><input type="radio" name="q58" value="B"> Air</label><br>
+<label><input type="radio" name="q58" value="C"> Daratan</label><br>
+<label><input type="radio" name="q58" value="D"> Awan</label><br>
 </div>
 
 <div class="soal">
-<p><b>59.</b> Salah satu manfaat toleransi bagi bangsa Indonesia adalah ....</p>
-<label><input type="radio" name="q59" value="A"> Menjaga keutuhan NKRI</label><br>
-<label><input type="radio" name="q59" value="B"> Menambah konflik</label><br>
-<label><input type="radio" name="q59" value="C"> Mengurangi persatuan</label><br>
-<label><input type="radio" name="q59" value="D"> Menimbulkan perpecahan</label><br>
+<p><b>59.</b> Permukaan Bumi terdiri atas daratan dan cairan dengan persentase air sekitar ....</p>
+<label><input type="radio" name="q59" value="A"> 30%</label><br>
+<label><input type="radio" name="q59" value="B"> 50%</label><br>
+<label><input type="radio" name="q59" value="C"> 70%</label><br>
+<label><input type="radio" name="q59" value="D"> 90%</label><br>
 </div>
 
 <div class="soal">
-<p><b>60.</b> Toleransi tidak berarti ....</p>
-<label><input type="radio" name="q60" value="A"> Menghormati orang lain</label><br>
-<label><input type="radio" name="q60" value="B"> Menjaga kerukunan</label><br>
-<label><input type="radio" name="q60" value="C"> Mencampuradukkan akidah</label><br>
-<label><input type="radio" name="q60" value="D"> Tenggang rasa</label><br>
+<p><b>60.</b> Struktur Bumi secara umum terdiri atas ....</p>
+<label><input type="radio" name="q60" value="A"> Kerak, mantel, inti</label><br>
+<label><input type="radio" name="q60" value="B"> Daratan dan lautan</label><br>
+<label><input type="radio" name="q60" value="C"> Udara dan tanah</label><br>
+<label><input type="radio" name="q60" value="D"> Gunung dan laut</label><br>
 </div>
+
+<div class="soal">
+<p><b>61.</b> Lapisan paling luar Bumi disebut ....</p>
+<label><input type="radio" name="q61" value="A"> Mantel</label><br>
+<label><input type="radio" name="q61" value="B"> Inti</label><br>
+<label><input type="radio" name="q61" value="C"> Kerak bumi</label><br>
+<label><input type="radio" name="q61" value="D"> Astenosfer</label><br>
+</div>
+
+<div class="soal">
+<p><b>62.</b> Kerak bumi disebut juga ....</p>
+<label><input type="radio" name="q62" value="A"> Kulit telur Bumi</label><br>
+<label><input type="radio" name="q62" value="B"> Selimut bumi</label><br>
+<label><input type="radio" name="q62" value="C"> Inti bumi</label><br>
+<label><input type="radio" name="q62" value="D"> Awan bumi</label><br>
+</div>
+
+<div class="soal">
+<p><b>63.</b> Ketebalan kerak benua sekitar ....</p>
+<label><input type="radio" name="q63" value="A"> 7 km</label><br>
+<label><input type="radio" name="q63" value="B"> 35-70 km</label><br>
+<label><input type="radio" name="q63" value="C"> 660 km</label><br>
+<label><input type="radio" name="q63" value="D"> 2900 km</label><br>
+</div>
+
+<div class="soal">
+<p><b>64.</b> Ketebalan kerak samudra sekitar ....</p>
+<label><input type="radio" name="q64" value="A"> 7 km</label><br>
+<label><input type="radio" name="q64" value="B"> 70 km</label><br>
+<label><input type="radio" name="q64" value="C"> 660 km</label><br>
+<label><input type="radio" name="q64" value="D"> 2900 km</label><br>
+</div>
+
+<div class="soal">
+<p><b>65.</b> Mantel bumi disebut juga ....</p>
+<label><input type="radio" name="q65" value="A"> Selimut bumi</label><br>
+<label><input type="radio" name="q65" value="B"> Kulit bumi</label><br>
+<label><input type="radio" name="q65" value="C"> Laut bumi</label><br>
+<label><input type="radio" name="q65" value="D"> Udara bumi</label><br>
+</div>
+
+<div class="soal">
+<p><b>66.</b> Mantel merupakan bagian terbesar dari ....</p>
+<label><input type="radio" name="q66" value="A"> Matahari</label><br>
+<label><input type="radio" name="q66" value="B"> Bulan</label><br>
+<label><input type="radio" name="q66" value="C"> Bumi</label><br>
+<label><input type="radio" name="q66" value="D"> Atmosfer</label><br>
+</div>
+
+<div class="soal">
+<p><b>67.</b> Ketebalan mantel bumi hampir mencapai ....</p>
+<label><input type="radio" name="q67" value="A"> 700 km</label><br>
+<label><input type="radio" name="q67" value="B"> 2.900 km</label><br>
+<label><input type="radio" name="q67" value="C"> 40.000 km</label><br>
+<label><input type="radio" name="q67" value="D"> 150 juta km</label><br>
+</div>
+
+<div class="soal">
+<p><b>68.</b> Lapisan mantel yang lebih lunak karena berada dekat titik leleh disebut ....</p>
+<label><input type="radio" name="q68" value="A"> Litosfer</label><br>
+<label><input type="radio" name="q68" value="B"> Atmosfer</label><br>
+<label><input type="radio" name="q68" value="C"> Astenosfer</label><br>
+<label><input type="radio" name="q68" value="D"> Hidrosfer</label><br>
+</div>
+
+<div class="soal">
+<p><b>69.</b> Inti bumi terbagi menjadi ....</p>
+<label><input type="radio" name="q69" value="A"> 2 bagian</label><br>
+<label><input type="radio" name="q69" value="B"> 3 bagian</label><br>
+<label><input type="radio" name="q69" value="C"> 4 bagian</label><br>
+<label><input type="radio" name="q69" value="D"> 5 bagian</label><br>
+</div>
+
+<div class="soal">
+<p><b>70.</b> Inti bumi luar berbentuk ....</p>
+<label><input type="radio" name="q70" value="A"> Padat</label><br>
+<label><input type="radio" name="q70" value="B"> Cair</label><br>
+<label><input type="radio" name="q70" value="C"> Gas</label><br>
+<label><input type="radio" name="q70" value="D"> Plasma</label><br>
+</div>
+
+<div class="soal">
+<p><b>71.</b> Inti bumi dalam berbentuk ....</p>
+<label><input type="radio" name="q71" value="A"> Cair</label><br>
+<label><input type="radio" name="q71" value="B"> Padat</label><br>
+<label><input type="radio" name="q71" value="C"> Gas</label><br>
+<label><input type="radio" name="q71" value="D"> Plasma</label><br>
+</div>
+
+<div class="soal">
+<p><b>72.</b> Lempeng bumi tersusun dari lapisan ....</p>
+<label><input type="radio" name="q72" value="A"> Atmosfer</label><br>
+<label><input type="radio" name="q72" value="B"> Hidrosfer</label><br>
+<label><input type="radio" name="q72" value="C"> Litosfer</label><br>
+<label><input type="radio" name="q72" value="D"> Astenosfer</label><br>
+</div>
+
+<div class="soal">
+<p><b>73.</b> Indonesia berada di perbatasan lempeng besar berikut, kecuali ....</p>
+<label><input type="radio" name="q73" value="A"> Eurasia</label><br>
+<label><input type="radio" name="q73" value="B"> Pasifik</label><br>
+<label><input type="radio" name="q73" value="C"> Indo-Australia</label><br>
+<label><input type="radio" name="q73" value="D"> Afrika</label><br>
+</div>
+
+<div class="soal">
+<p><b>74.</b> Kecepatan pergerakan lempeng sekitar ....</p>
+<label><input type="radio" name="q74" value="A"> 5 cm per tahun</label><br>
+<label><input type="radio" name="q74" value="B"> 5 m per tahun</label><br>
+<label><input type="radio" name="q74" value="C"> 50 cm per hari</label><br>
+<label><input type="radio" name="q74" value="D"> 50 m per tahun</label><br>
+</div>
+
+<div class="soal">
+<p><b>75.</b> Retakan atau patahan pada lempeng disebut ....</p>
+<label><input type="radio" name="q75" value="A"> Vulkanisme</label><br>
+<label><input type="radio" name="q75" value="B"> Sesar</label><br>
+<label><input type="radio" name="q75" value="C"> Erosi</label><br>
+<label><input type="radio" name="q75" value="D"> Abrasi</label><br>
+</div>
+
+<div class="soal">
+<p><b>76.</b> Gempa bumi terjadi karena ....</p>
+<label><input type="radio" name="q76" value="A"> Angin kencang</label><br>
+<label><input type="radio" name="q76" value="B"> Hujan deras</label><br>
+<label><input type="radio" name="q76" value="C"> Pergerakan tiba-tiba batuan kerak bumi</label><br>
+<label><input type="radio" name="q76" value="D"> Panas matahari</label><br>
+</div>
+
+<div class="soal">
+<p><b>77.</b> Gempa bumi dapat dirasakan hingga jarak yang ....</p>
+<label><input type="radio" name="q77" value="A"> Dekat</label><br>
+<label><input type="radio" name="q77" value="B"> Sangat jauh</label><br>
+<label><input type="radio" name="q77" value="C"> 1 meter</label><br>
+<label><input type="radio" name="q77" value="D"> 10 meter</label><br>
+</div>
+
+<div class="soal">
+<p><b>78.</b> Tsunami adalah gelombang besar air laut yang bergerak menuju ....</p>
+<label><input type="radio" name="q78" value="A"> Laut dalam</label><br>
+<label><input type="radio" name="q78" value="B"> Gunung</label><br>
+<label><input type="radio" name="q78" value="C"> Daratan</label><br>
+<label><input type="radio" name="q78" value="D"> Sungai</label><br>
+</div>
+
+<div class="soal">
+<p><b>79.</b> Tsunami umumnya terjadi setelah adanya ....</p>
+<label><input type="radio" name="q79" value="A"> Gempa berpusat di laut</label><br>
+<label><input type="radio" name="q79" value="B"> Hujan deras</label><br>
+<label><input type="radio" name="q79" value="C"> Angin topan</label><br>
+<label><input type="radio" name="q79" value="D"> Kemarau</label><br>
+</div>
+
+<div class="soal">
+<p><b>80.</b> Tsunami biasanya disebabkan oleh pergeseran sepanjang sesar besar yang disebut ....</p>
+<label><input type="radio" name="q80" value="A"> Transform</label><br>
+<label><input type="radio" name="q80" value="B"> Divergen</label><br>
+<label><input type="radio" name="q80" value="C"> Megathrust</label><br>
+<label><input type="radio" name="q80" value="D"> Lipatan</label><br>
+</div>
+
+<div class="soal">
+<p><b>81.</b> Sebelum terjadi gempa, kita harus mengetahui ....</p>
+<label><input type="radio" name="q81" value="A"> Menu favorit</label><br>
+<label><input type="radio" name="q81" value="B"> Rute evakuasi</label><br>
+<label><input type="radio" name="q81" value="C"> Harga barang</label><br>
+<label><input type="radio" name="q81" value="D"> Jadwal TV</label><br>
+</div>
+
+<div class="soal">
+<p><b>82.</b> Sebelum terjadi gempa, benda berat sebaiknya ditempatkan di ....</p>
+<label><input type="radio" name="q82" value="A"> Rak paling atas</label><br>
+<label><input type="radio" name="q82" value="B"> Tempat tinggi</label><br>
+<label><input type="radio" name="q82" value="C"> Rak bagian bawah</label><br>
+<label><input type="radio" name="q82" value="D"> Atap rumah</label><br>
+</div>
+
+<div class="soal">
+<p><b>83.</b> Saat gempa dan berada di dalam bangunan, lindungi kepala dari ....</p>
+<label><input type="radio" name="q83" value="A"> Air hujan</label><br>
+<label><input type="radio" name="q83" value="B"> Reruntuhan benda</label><br>
+<label><input type="radio" name="q83" value="C"> Cahaya</label><br>
+<label><input type="radio" name="q83" value="D"> Debu jalan</label><br>
+</div>
+
+<div class="soal">
+<p><b>84.</b> Saat berada di luar bangunan ketika gempa, hindari ....</p>
+<label><input type="radio" name="q84" value="A"> Lapangan</label><br>
+<label><input type="radio" name="q84" value="B"> Tempat terbuka</label><br>
+<label><input type="radio" name="q84" value="C"> Bangunan dan tiang listrik</label><br>
+<label><input type="radio" name="q84" value="D"> Tanah kosong</label><br>
+</div>
+
+<div class="soal">
+<p><b>85.</b> Jika sedang mengendarai mobil saat gempa, yang harus dilakukan adalah ....</p>
+<label><input type="radio" name="q85" value="A"> Menambah kecepatan</label><br>
+<label><input type="radio" name="q85" value="B"> Menghentikan kendaraan dengan aman</label><br>
+<label><input type="radio" name="q85" value="C"> Membunyikan klakson terus</label><br>
+<label><input type="radio" name="q85" value="D"> Keluar sambil berlari</label><br>
+</div>
+
+<div class="soal">
+<p><b>86.</b> Jika tinggal di daerah pantai setelah gempa, segera ....</p>
+<label><input type="radio" name="q86" value="A"> Bermain di pantai</label><br>
+<label><input type="radio" name="q86" value="B"> Mencari ikan</label><br>
+<label><input type="radio" name="q86" value="C"> Menjauhi pantai</label><br>
+<label><input type="radio" name="q86" value="D"> Berfoto</label><br>
+</div>
+
+<div class="soal">
+<p><b>87.</b> Setelah gempa, periksa lingkungan sekitar dari kemungkinan ....</p>
+<label><input type="radio" name="q87" value="A"> Kebakaran</label><br>
+<label><input type="radio" name="q87" value="B"> Banjir</label><br>
+<label><input type="radio" name="q87" value="C"> Kemarau</label><br>
+<label><input type="radio" name="q87" value="D"> Kabut</label><br>
+</div>
+
+<div class="soal">
+<p><b>88.</b> Setelah gempa, jangan memasuki bangunan jika masih terdapat ....</p>
+<label><input type="radio" name="q88" value="A"> Cat</label><br>
+<label><input type="radio" name="q88" value="B"> Perabot</label><br>
+<label><input type="radio" name="q88" value="C"> Potensi reruntuhan</label><br>
+<label><input type="radio" name="q88" value="D"> Lampu</label><br>
+</div>
+
+<div class="soal">
+<p><b>89.</b> Setelah gempa, dengarkan informasi melalui ....</p>
+<label><input type="radio" name="q89" value="A"> Radio</label><br>
+<label><input type="radio" name="q89" value="B"> Komik</label><br>
+<label><input type="radio" name="q89" value="C"> Poster</label><br>
+<label><input type="radio" name="q89" value="D"> Majalah</label><br>
+</div>
+
+<div class="soal">
+<p><b>90.</b> Setelah gempa, jangan mudah terpancing oleh ....</p>
+<label><input type="radio" name="q90" value="A"> Informasi resmi</label><br>
+<label><input type="radio" name="q90" value="B"> Hoaks atau isu yang tidak jelas</label><br>
+<label><input type="radio" name="q90" value="C"> Pengumuman BMKG</label><br>
+<label><input type="radio" name="q90" value="D"> Petugas evakuasi</label><br>
+</div>
+  
+</div>
+
+<!-- ISIAN -->
+
+<div class="soal">
+  
+<div class="soal">
+<p><b>1.</b> Lambang unsur emas adalah ....</p>
+<input type="text" id="isian1">
+</div>
+
+<div class="soal">
+<p><b>2.</b> Rumus kimia air adalah ....</p>
+<input type="text" id="isian2">
+</div>
+
+<div class="soal">
+<p><b>3.</b> Bagian terkecil unsur disebut ....</p>
+<input type="text" id="isian3">
+</div>
+
+<div class="soal">
+<p><b>4.</b> Partikel bermuatan positif disebut ....</p>
+<input type="text" id="isian4">
+</div>
+
+<div class="soal">
+<p><b>5.</b> Partikel bermuatan negatif disebut ....</p>
+<input type="text" id="isian5">
+</div>
+
+<div class="soal">
+<p><b>6.</b> Partikel yang tidak bermuatan disebut ....</p>
+<input type="text" id="isian6">
+</div>
+
+<div class="soal">
+<p><b>7.</b> Simbol unsur perak adalah ....</p>
+<input type="text" id="isian7">
+</div>
+
+<div class="soal">
+<p><b>8.</b> Simbol unsur merkuri adalah ....</p>
+<input type="text" id="isian8">
+</div>
+
+<div class="soal">
+<p><b>9.</b> O₂ disebut molekul ....</p>
+<input type="text" id="isian9">
+</div>
+
+<div class="soal">
+<p><b>10.</b> CO₂ disebut molekul ....</p>
+<input type="text" id="isian10">
+</div>
+
+<div class="soal">
+<p><b>11.</b> Campuran air dan pasir termasuk campuran ....</p>
+<input type="text" id="isian11">
+</div>
+
+<div class="soal">
+<p><b>12.</b> Campuran sirup dan air termasuk campuran ....</p>
+<input type="text" id="isian12">
+</div>
+
+<div class="soal">
+<p><b>13.</b> Campuran homogen cair disebut ....</p>
+<input type="text" id="isian13">
+</div>
+
+<div class="soal">
+<p><b>14.</b> Nomor atom dilambangkan dengan huruf ....</p>
+<input type="text" id="isian14">
+</div>
+
+<div class="soal">
+<p><b>15.</b> Nomor massa dilambangkan dengan huruf ....</p>
+<input type="text" id="isian15">
+</div>
+
+<div class="soal">
+<p><b>16.</b> Lapisan udara yang menyelimuti Bumi disebut ....</p>
+<input type="text" id="isian1">
+</div>
+
+<div class="soal">
+<p><b>17.</b> Lapisan air yang menutupi sebagian besar permukaan Bumi disebut ....</p>
+<input type="text" id="isian2">
+</div>
+
+<div class="soal">
+<p><b>18.</b> Lapisan daratan Bumi disebut ....</p>
+<input type="text" id="isian3">
+</div>
+
+<div class="soal">
+<p><b>19.</b> Kerak bumi diibaratkan sebagai .... telur Bumi.</p>
+<input type="text" id="isian4">
+</div>
+
+<div class="soal">
+<p><b>20.</b> Mantel bumi disebut juga .... bumi.</p>
+<input type="text" id="isian5">
+</div>
+
+<div class="soal">
+<p><b>21.</b> Lapisan mantel yang lebih lunak disebut ....</p>
+<input type="text" id="isian6">
+</div>
+
+<div class="soal">
+<p><b>22.</b> Inti bumi luar berbentuk ....</p>
+<input type="text" id="isian7">
+</div>
+
+<div class="soal">
+<p><b>23.</b> Inti bumi dalam berbentuk ....</p>
+<input type="text" id="isian8">
+</div>
+
+<div class="soal">
+<p><b>24.</b> Retakan atau patahan pada lempeng disebut ....</p>
+<input type="text" id="isian9">
+</div>
+
+<div class="soal">
+<p><b>25.</b> Gempa bumi terjadi akibat pergerakan tiba-tiba batuan .... bumi.</p>
+<input type="text" id="isian10">
+</div>
+
+<div class="soal">
+<p><b>26.</b> Gelombang laut besar yang menuju daratan disebut ....</p>
+<input type="text" id="isian11">
+</div>
+
+<div class="soal">
+<p><b>27.</b> Tsunami biasanya diawali oleh gempa yang berpusat di ....</p>
+<input type="text" id="isian12">
+</div>
+
+<div class="soal">
+<p><b>28.</b> Sesar besar penyebab tsunami disebut ....</p>
+<input type="text" id="isian13">
+</div>
+
+<div class="soal">
+<p><b>29.</b> Indonesia berada di pertemuan lempeng Eurasia, Pasifik, dan ....</p>
+<input type="text" id="isian14">
+</div>
+
+<div class="soal">
+<p><b>30.</b> Kecepatan pergerakan lempeng sekitar 5 cm per ....</p>
+<input type="text" id="isian15">
+</div>
+
+<div class="soal">
+<p><b>31.</b> Sebelum gempa kita harus mengetahui jalur ....</p>
+<input type="text" id="isian16">
+</div>
+
+<div class="soal">
+<p><b>32.</b> Saat gempa, lindungi bagian tubuh yang paling penting yaitu ....</p>
+<input type="text" id="isian17">
+</div>
+
+<div class="soal">
+<p><b>33.</b> Setelah gempa, dengarkan informasi dari ....</p>
+<input type="text" id="isian18">
+</div>
+
+<div class="soal">
+<p><b>34.</b> Jangan mudah percaya berita bohong atau ....</p>
+<input type="text" id="isian19">
+</div>
+
+<div class="soal">
+<p><b>35.</b> Bumi tampak berwarna biru karena banyak tertutup oleh lapisan ....</p>
+<input type="text" id="isian20">
+</div> 
+  
+<!-- URAIAN -->
+
+<div class="soal">
+  
+<div class="soal">
+<p><b>1.</b> Jelaskan perbedaan unsur, senyawa, dan campuran berdasarkan materi!</p>
+<textarea id="uraian1" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>2.</b> Mengapa emas murni digolongkan sebagai unsur? Jelaskan!</p>
+<textarea id="uraian2" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>3.</b> Jelaskan perbedaan molekul unsur dan molekul senyawa beserta contohnya!</p>
+<textarea id="uraian3" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>4.</b> Jelaskan perbedaan campuran homogen dan heterogen beserta contohnya!</p>
+<textarea id="uraian4" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>5.</b> Mengapa slogan "Tanpa Bahan Kimia" dianggap kurang tepat menurut materi pada buku?</p>
+<textarea id="uraian5" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>6.</b> Jelaskan mengapa Bumi tampak berwarna biru jika dilihat dari luar angkasa!</p>
+<textarea id="uraian1" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>7.</b> Bandingkan kerak benua dan kerak samudra berdasarkan ketebalannya!</p>
+<textarea id="uraian2" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>8.</b> Mengapa inti bumi dalam tetap padat meskipun suhunya sangat tinggi?</p>
+<textarea id="uraian3" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>9.</b> Jelaskan hubungan antara pergerakan lempeng dan terjadinya gempa bumi!</p>
+<textarea id="uraian4" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>10.</b> Mengapa Indonesia sering mengalami gempa bumi?</p>
+<textarea id="uraian5" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>6.</b> Jelaskan bagaimana tsunami dapat terjadi setelah gempa bumi!</p>
+<textarea id="uraian6" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>7.</b> Mengapa masyarakat pesisir harus segera menjauhi pantai setelah terjadi gempa kuat?</p>
+<textarea id="uraian7" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>8.</b> Jelaskan langkah yang harus dilakukan jika sedang berada di dalam bangunan saat gempa!</p>
+<textarea id="uraian8" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>9.</b> Mengapa kita tidak boleh langsung masuk kembali ke bangunan setelah gempa?</p>
+<textarea id="uraian9" rows="5"></textarea>
+</div>
+
+<div class="soal">
+<p><b>10.</b> Menurutmu mengapa informasi resmi sangat penting setelah terjadi gempa bumi?</p>
+<textarea id="uraian10" rows="5"></textarea>
+</div>
+  
+</div>
+
+<button onclick="periksa()">SELESAI UJIAN</button>
+
+<div id="hasil"></div>
+  
+</div>
+
+<script>
+
+const kunciPG = {
+q1:"C",
+q2:"C",
+q3:"B",
+q4:"B",
+q5:"C",
+q6:"B",
+q7:"A",
+q8:"B",
+q9:"C",
+q10:"A",
+q11:"B",
+q12:"C",
+q13:"C",
+q14:"B",
+q15:"C",
+q16:"B",
+q17:"B",
+q18:"C",
+q19:"A",
+q20:"B",
+q21:"C",
+q22:"A",
+q23:"A",
+q24:"B",
+q25:"C",
+q26:"C",
+q27:"C",
+q28:"C",
+q29:"B",
+q30:"C",
+q31:"C",
+q32:"C",
+q33:"C",
+q34:"B",
+q35:"A",
+q36:"C",
+q37:"B",
+q38:"C",
+q39:"B",
+q40:"A",
+q41:"B",
+q42:"C",
+q43:"B",
+q44:"C",
+q45:"C",
+q46:"C",
+q47:"D",
+q48:"B",
+q49:"A",
+q50:"C",
+q51:"B",
+q52:"C",
+q53:"B",
+q54:"B",
+q55:"C",
+q56:"B",
+q57:"A",
+q58:"C",
+q59:"C",
+q60:"A",
+q61:"C",
+q62:"A",
+q63:"B",
+q64:"A",
+q65:"A",
+q66:"C",
+q67:"B",
+q68:"C",
+q69:"A",
+q70:"B", 
+q71:"B",
+q72:"C",
+q73:"D",
+q74:"A",
+q75:"B",
+q76:"C",
+q77:"B",
+q78:"C",
+q79:"A",
+q80:"C",
+q81:"B",
+q82:"C",
+q83:"B",
+q84:"C",
+q85:"B",
+q86:"C",
+q87:"A",
+q88:"C",
+q89:"A",
+q90:"B",
+};
+
+const pembahasanPG = {
+q1:"Emas murni termasuk unsur karena tersusun atas satu jenis atom saja.",
+q2:"Lambang unsur emas adalah Au.",
+q3:"Au berasal dari kata Aurum.",
+q4:"Unsur adalah zat yang tersusun dari satu jenis atom.",
+q5:"Terdapat 118 unsur yang telah berhasil diidentifikasi.",
+q6:"Jumlah unsur alami adalah 94 unsur.",
+q7:"Jumlah unsur sintetis adalah 24 unsur.",
+q8:"Air merupakan senyawa yang tersusun dari hidrogen dan oksigen.",
+q9:"Rumus kimia air adalah H₂O.",
+q10:"Satu molekul air terdiri dari 2 atom H dan 1 atom O.",
+q11:"Senyawa tersusun dari dua atau lebih unsur dengan perbandingan tertentu.",
+q12:"Senyawa dapat dipisahkan menjadi unsur pembentuknya melalui reaksi kimia.",
+q13:"Bagian terkecil unsur adalah atom.",
+q14:"Atom terdiri atas inti atom dan elektron.",
+q15:"Proton bermuatan positif.",
+q16:"Elektron bermuatan negatif.",
+q17:"Neutron tidak memiliki muatan.",
+q18:"Elektron bergerak pada orbit di sekitar inti atom.",
+q19:"X menunjukkan lambang atom.",
+q20:"A menunjukkan nomor massa.",
+q21:"Z menunjukkan nomor atom.",
+q22:"Nomor atom menunjukkan jumlah proton.",
+q23:"Nomor massa menunjukkan jumlah proton dan neutron.",
+q24:"O₂ disebut molekul unsur karena tersusun dari atom sejenis.",
+q25:"CO₂ disebut molekul senyawa karena tersusun dari atom berbeda.",
+q26:"CO₂ terdiri atas 1 atom karbon dan 2 atom oksigen.",
+q27:"Udara merupakan campuran berbagai gas.",
+q28:"Perbandingan komponen campuran tidak tetap.",
+q29:"Air dan pasir adalah campuran heterogen.",
+q30:"Sirup dan air adalah campuran homogen.",
+q31:"Campuran homogen yang berbentuk cair disebut larutan.",
+q32:"Simbol unsur perak adalah Ag.",
+q33:"Simbol unsur merkuri adalah Hg.",
+q34:"Garam dapur merupakan senyawa natrium klorida dengan rumus NaCl.",
+q35:"Asam klorida memiliki rumus kimia HCl.",
+q36:"Jika batu kapur ditumbuk terus-menerus maka ukurannya akan semakin kecil.",
+q37:"Walaupun ukurannya semakin kecil, sifat batu kapur tetap sama seperti zat asalnya.",
+q38:"O₂ tersusun atas dua atom oksigen yang sejenis sehingga disebut molekul unsur.",
+q39:"CO₂ tersusun atas atom karbon dan oksigen yang berbeda sehingga disebut molekul senyawa.",
+q40:"O₂ terdiri atas dua atom oksigen yang sejenis.",
+q41:"Campuran air dan pasir akan membentuk endapan jika didiamkan.",
+q42:"Campuran homogen memiliki komposisi yang merata pada seluruh bagiannya.",
+q43:"Campuran heterogen memiliki komposisi yang tidak merata dan dapat dibedakan komponennya.",
+q44:"Unsur dalam tabel periodik dikelompokkan berdasarkan sifat fisika dan sifat kimianya.",
+q45:"Ag merupakan lambang unsur perak sehingga termasuk unsur.",
+q46:"H₂O tersusun dari hidrogen dan oksigen sehingga termasuk senyawa.",
+q47:"Udara tersusun atas O₂, N₂, CO₂ dan beberapa zat lain, sedangkan Au bukan penyusun udara.",
+q48:"Senyawa memiliki sifat yang berbeda dari unsur-unsur pembentuknya.",
+q49:"Semua makanan dan minuman tersusun atas zat kimia karena seluruh materi tersusun dari zat kimia.",
+q50:"Slogan yang lebih tepat adalah 'Tanpa Bahan Pengawet Sintetis' karena makanan tetap mengandung zat kimia alami.",
+q51:"Apollo 8 menunjukkan Bumi tampak seperti bulatan biru.",
+q52:"Warna biru Bumi berasal dari hidrosfer yang menutupi sebagian besar permukaan Bumi.",
+q53:"Sebagian besar permukaan Bumi tertutup air.",
+q54:"Keliling Bumi sekitar 40.000 km.",
+q55:"Jarak Bumi ke Matahari sekitar 150 juta km.",
+q56:"Atmosfer adalah lapisan udara.",
+q57:"Hidrosfer adalah lapisan air.",
+q58:"Litosfer adalah lapisan daratan.",
+q59:"Air menutupi sekitar 70% permukaan Bumi.",
+q60:"Struktur Bumi terdiri atas kerak, mantel, dan inti.",
+q61:"Kerak bumi adalah lapisan paling luar.",
+q62:"Kerak bumi diibaratkan sebagai kulit telur Bumi.",
+q63:"Ketebalan kerak benua sekitar 35–70 km.",
+q64:"Ketebalan kerak samudra sekitar 7 km.",
+q65:"Mantel disebut juga selimut bumi.",
+q66:"Mantel merupakan bagian terbesar dari Bumi.",
+q67:"Ketebalan mantel hampir mencapai 2.900 km.",
+q68:"Astenosfer adalah lapisan mantel yang lebih lunak.",
+q69:"Inti bumi dibedakan menjadi inti luar dan inti dalam.",
+q70:"Inti luar berbentuk cair.",
+q71:"Inti bumi dalam berbentuk padat karena tekanan yang sangat tinggi.",
+q72:"Lempeng bumi tersusun dari litosfer yang terpecah menjadi beberapa bagian.",
+q73:"Materi menyebut Eurasia, Pasifik, dan Indo-Australia sebagai lempeng utama yang memengaruhi Indonesia.",
+q74:"Lempeng bergerak sekitar ±5 cm per tahun.",
+q75:"Retakan atau patahan pada lempeng disebut sesar.",
+q76:"Gempa terjadi akibat pergerakan tiba-tiba batuan kerak bumi.",
+q77:"Getaran gempa dapat dirasakan hingga jarak yang sangat jauh.",
+q78:"Tsunami adalah gelombang laut besar yang bergerak menuju daratan.",
+q79:"Tsunami biasanya terjadi setelah gempa yang berpusat di laut.",
+q80:"Pergeseran pada sesar besar disebut megathrust.",
+q81:"Sebelum gempa harus mengetahui rute evakuasi.",
+q82:"Benda berat sebaiknya ditempatkan di rak bagian bawah.",
+q83:"Saat gempa lindungi kepala dari benda yang dapat runtuh.",
+q84:"Hindari bangunan, tiang listrik, dan pohon saat berada di luar.",
+q85:"Kendaraan harus dihentikan di tempat yang aman.",
+q86:"Daerah pantai berpotensi tsunami sehingga harus segera dijauhi.",
+q87:"Periksa kemungkinan kebakaran setelah gempa.",
+q88:"Jangan memasuki bangunan yang masih berpotensi runtuh.",
+q89:"Informasi resmi dapat diperoleh melalui radio dan sumber terpercaya.",
+q90:"Jangan mudah percaya hoaks atau isu yang tidak jelas sumbernya.",
+};  
+  
+const kunciIsian = {
+isian1:"au",
+isian2:"h2o",
+isian3:"atom",
+isian4:"proton",
+isian5:"elektron",
+isian6:"neutron",
+isian7:"ag",
+isian8:"hg",
+isian9:"unsur",
+isian10:"senyawa",
+isian11:"heterogen",
+isian12:"homogen",
+isian13:"larutan",
+isian14:"z",
+isian15:"a",
+isian16:"atmosfer",
+isian17:"hidrosfer",
+isian18:"litosfer",
+isian19:"kulit",
+isian20:"selimut",
+isian21:"astenosfer",
+isian22:"cair",
+isian23:"padat",
+isian24:"sesar",
+isian25:"kerak",
+isian26:"tsunami",
+isian27:"laut",
+isian28:"megathrust",
+isian29:"indo-australia",
+isian30:"tahun",
+isian31:"evakuasi",
+isian32:"kepala",
+isian33:"radio",
+isian34:"hoaks",
+isian35:"hidrosfer"
+};
+
+function normal(teks){
+return teks
+.toLowerCase()
+.trim()
+.replace(/-/g," ")
+.replace(/\s+/g," ");
+}
+
+function periksa(){
+
+let benarPG = 0;
+let salahList = "";
+
+for(let kode in kunciPG){
+
+let dipilih =
+document.querySelector(
+'input[name="'+kode+'"]:checked'
+);
+
+if(dipilih){
+
+if(dipilih.value===kunciPG[kode]){
+
+benarPG++;
+
+}else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" salah.<br>"+
+"Jawaban benar: "+
+pembahasanPG[kode]+
+"</p>";
+
+}
+
+}else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" belum dijawab.<br>"+
+"Jawaban benar: "+
+pembahasanPG[kode]+
+"</p>";
+
+}
+
+} // PENUTUP for kunciPG
+
+let benarIsian = 0;
+
+for(let kode in kunciIsian){
+
+let isi =
+normal(
+document.getElementById(kode).value
+);
+
+let kunci =
+normal(kunciIsian[kode]);
+
+if(isi===""){
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" belum dijawab.<br>Jawaban benar: "+
+kunciIsian[kode]+
+"</p>";
+
+}
+else if(isi===kunci){
+
+benarIsian++;
+
+}
+else{
+
+salahList +=
+"<p class='salah'>"+
+kode+
+" salah.<br>Jawaban benar: "+
+kunciIsian[kode]+
+"</p>";
+
+  }
+
+}
+
+const totalPG = Object.keys(kunciPG).length;
+const totalIsian = Object.keys(kunciIsian).length;
+
+let nilaiPG =
+(benarPG / totalPG) * 50;
+
+let nilaiIsian =
+(benarIsian / totalIsian) * 50;
+
+let nilaiAkhir =
+Math.round(nilaiPG + nilaiIsian);
+
+document.getElementById("hasil").style.display="block";
+
+document.getElementById("hasil").innerHTML=
+"<h2>Hasil Ujian</h2>"+
+"<p>Nama : "+document.getElementById("nama").value+"</p>"+
+"<p>Kelas : "+document.getElementById("kelas").value+"</p>"+
+"<p>Nilai PG : "+nilaiPG+"</p>"+
+"<p>Nilai Isian : "+nilaiIsian+"</p>"+
+"<p><b>Benar PG :</b> "+benarPG+" / "+totalPG+"</p>"+
+"<p><b>Benar Isian :</b> "+benarIsian+" / "+totalIsian+"</p>"+
+"<p><b>Nilai Akhir :</b> "+nilaiAkhir+"</p>"+
+nilaiAkhir+
+"</p>"+
+"<hr>"+
+"<h3>Jawaban Salah</h3>"+
+salahList+
+"<hr>"+
+
+"<h3>Uraian (Periksa Manual)</h3>"+
+
+"<p><b>51.</b> "+document.getElementById("uraian1").value+"</p>"+
+
+"<p><b>52.</b> "+document.getElementById("uraian2").value+"</p>"+
+
+"<p><b>53.</b> "+document.getElementById("uraian3").value+"</p>"+
+
+"<p><b>54.</b> "+document.getElementById("uraian4").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian5").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian6").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian7").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian8").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian9").value+"</p>"+
+
+"<p><b>55.</b> "+document.getElementById("uraian10").value+"</p>"+
+
+"<br><br>"+
+
+"<button onclick='salinHasil()'>📋 SALIN HASIL</button>";
+}
+function salinHasil(){
+
+let teks =
+document.getElementById("hasil").innerText;
+
+navigator.clipboard.writeText(teks);
+
+alert("Hasil berhasil disalin");
+
+}
+</script>
+
+</body>
+</html>
+
   
 </div>
 
